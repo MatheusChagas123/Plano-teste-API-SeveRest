@@ -1,0 +1,5085 @@
+{
+	"id": "e18b40de-1b02-4a0d-a6b1-63e4681a34d7",
+	"name": "ServeRest",
+	"timestamp": "2022-07-15T13:16:14.401Z",
+	"collection_id": "21100219-02fca3aa-f75c-4e17-b379-fd000088cca7",
+	"folder_id": 0,
+	"environment_id": "21100219-1ff877da-c7de-451b-8963-6d3471b64cf6",
+	"totalPass": 1440,
+	"totalFail": 0,
+	"results": [
+		{
+			"id": "25bdcaf8-50a6-4147-9bb3-7ec671931676",
+			"name": "Cadastrar usuário (ADM)",
+			"time": 9,
+			"responseCode": {
+				"code": 201,
+				"name": "Created"
+			},
+			"tests": {
+				"Status code is 201": true,
+				"Status code name has string": true,
+				"Response time is less than 200ms": true,
+				"response must be valid and have a body": true,
+				"Resposta contém atributo \"message\"": true,
+				"Resposta contém atributo \"_id\"": true
+			},
+			"testPassFailCounts": {
+				"Status code is 201": {
+					"pass": 10,
+					"fail": 0
+				},
+				"Status code name has string": {
+					"pass": 10,
+					"fail": 0
+				},
+				"Response time is less than 200ms": {
+					"pass": 10,
+					"fail": 0
+				},
+				"response must be valid and have a body": {
+					"pass": 10,
+					"fail": 0
+				},
+				"Resposta contém atributo \"message\"": {
+					"pass": 10,
+					"fail": 0
+				},
+				"Resposta contém atributo \"_id\"": {
+					"pass": 10,
+					"fail": 0
+				}
+			},
+			"times": [
+				16,
+				9,
+				9,
+				10,
+				11,
+				11,
+				10,
+				8,
+				8,
+				9
+			],
+			"allTests": [
+				{
+					"Status code is 201": true,
+					"Status code name has string": true,
+					"Response time is less than 200ms": true,
+					"response must be valid and have a body": true,
+					"Resposta contém atributo \"message\"": true,
+					"Resposta contém atributo \"_id\"": true
+				},
+				{
+					"Status code is 201": true,
+					"Status code name has string": true,
+					"Response time is less than 200ms": true,
+					"response must be valid and have a body": true,
+					"Resposta contém atributo \"message\"": true,
+					"Resposta contém atributo \"_id\"": true
+				},
+				{
+					"Status code is 201": true,
+					"Status code name has string": true,
+					"Response time is less than 200ms": true,
+					"response must be valid and have a body": true,
+					"Resposta contém atributo \"message\"": true,
+					"Resposta contém atributo \"_id\"": true
+				},
+				{
+					"Status code is 201": true,
+					"Status code name has string": true,
+					"Response time is less than 200ms": true,
+					"response must be valid and have a body": true,
+					"Resposta contém atributo \"message\"": true,
+					"Resposta contém atributo \"_id\"": true
+				},
+				{
+					"Status code is 201": true,
+					"Status code name has string": true,
+					"Response time is less than 200ms": true,
+					"response must be valid and have a body": true,
+					"Resposta contém atributo \"message\"": true,
+					"Resposta contém atributo \"_id\"": true
+				},
+				{
+					"Status code is 201": true,
+					"Status code name has string": true,
+					"Response time is less than 200ms": true,
+					"response must be valid and have a body": true,
+					"Resposta contém atributo \"message\"": true,
+					"Resposta contém atributo \"_id\"": true
+				},
+				{
+					"Status code is 201": true,
+					"Status code name has string": true,
+					"Response time is less than 200ms": true,
+					"response must be valid and have a body": true,
+					"Resposta contém atributo \"message\"": true,
+					"Resposta contém atributo \"_id\"": true
+				},
+				{
+					"Status code is 201": true,
+					"Status code name has string": true,
+					"Response time is less than 200ms": true,
+					"response must be valid and have a body": true,
+					"Resposta contém atributo \"message\"": true,
+					"Resposta contém atributo \"_id\"": true
+				},
+				{
+					"Status code is 201": true,
+					"Status code name has string": true,
+					"Response time is less than 200ms": true,
+					"response must be valid and have a body": true,
+					"Resposta contém atributo \"message\"": true,
+					"Resposta contém atributo \"_id\"": true
+				},
+				{
+					"Status code is 201": true,
+					"Status code name has string": true,
+					"Response time is less than 200ms": true,
+					"response must be valid and have a body": true,
+					"Resposta contém atributo \"message\"": true,
+					"Resposta contém atributo \"_id\"": true
+				}
+			]
+		},
+		{
+			"id": "e54957b1-eda7-4c6d-9e52-25676012336d",
+			"name": "Realizar login",
+			"time": 8,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code é 200": true,
+				"Status code name has string": true,
+				"Response time is less than 200ms": true,
+				"Body matches string": true,
+				"response must be valid and have a body": true
+			},
+			"testPassFailCounts": {
+				"Status code é 200": {
+					"pass": 10,
+					"fail": 0
+				},
+				"Status code name has string": {
+					"pass": 10,
+					"fail": 0
+				},
+				"Response time is less than 200ms": {
+					"pass": 10,
+					"fail": 0
+				},
+				"Body matches string": {
+					"pass": 10,
+					"fail": 0
+				},
+				"response must be valid and have a body": {
+					"pass": 10,
+					"fail": 0
+				}
+			},
+			"times": [
+				9,
+				8,
+				8,
+				8,
+				9,
+				8,
+				8,
+				11,
+				9,
+				8
+			],
+			"allTests": [
+				{
+					"Status code é 200": true,
+					"Status code name has string": true,
+					"Response time is less than 200ms": true,
+					"Body matches string": true,
+					"response must be valid and have a body": true
+				},
+				{
+					"Status code é 200": true,
+					"Status code name has string": true,
+					"Response time is less than 200ms": true,
+					"Body matches string": true,
+					"response must be valid and have a body": true
+				},
+				{
+					"Status code é 200": true,
+					"Status code name has string": true,
+					"Response time is less than 200ms": true,
+					"Body matches string": true,
+					"response must be valid and have a body": true
+				},
+				{
+					"Status code é 200": true,
+					"Status code name has string": true,
+					"Response time is less than 200ms": true,
+					"Body matches string": true,
+					"response must be valid and have a body": true
+				},
+				{
+					"Status code é 200": true,
+					"Status code name has string": true,
+					"Response time is less than 200ms": true,
+					"Body matches string": true,
+					"response must be valid and have a body": true
+				},
+				{
+					"Status code é 200": true,
+					"Status code name has string": true,
+					"Response time is less than 200ms": true,
+					"Body matches string": true,
+					"response must be valid and have a body": true
+				},
+				{
+					"Status code é 200": true,
+					"Status code name has string": true,
+					"Response time is less than 200ms": true,
+					"Body matches string": true,
+					"response must be valid and have a body": true
+				},
+				{
+					"Status code é 200": true,
+					"Status code name has string": true,
+					"Response time is less than 200ms": true,
+					"Body matches string": true,
+					"response must be valid and have a body": true
+				},
+				{
+					"Status code é 200": true,
+					"Status code name has string": true,
+					"Response time is less than 200ms": true,
+					"Body matches string": true,
+					"response must be valid and have a body": true
+				},
+				{
+					"Status code é 200": true,
+					"Status code name has string": true,
+					"Response time is less than 200ms": true,
+					"Body matches string": true,
+					"response must be valid and have a body": true
+				}
+			]
+		},
+		{
+			"id": "4722caf8-0f9e-4b12-aeb2-5e1c3f3d4a8a",
+			"name": "Cadastrar produto (ADM)",
+			"time": 10,
+			"responseCode": {
+				"code": 201,
+				"name": "Created"
+			},
+			"tests": {
+				"Status do código é 201": true,
+				"Mensagem  está  correta": true
+			},
+			"testPassFailCounts": {
+				"Status do código é 201": {
+					"pass": 10,
+					"fail": 0
+				},
+				"Mensagem  está  correta": {
+					"pass": 10,
+					"fail": 0
+				}
+			},
+			"times": [
+				16,
+				10,
+				21,
+				13,
+				25,
+				11,
+				10,
+				10,
+				16,
+				10
+			],
+			"allTests": [
+				{
+					"Status do código é 201": true,
+					"Mensagem  está  correta": true
+				},
+				{
+					"Status do código é 201": true,
+					"Mensagem  está  correta": true
+				},
+				{
+					"Status do código é 201": true,
+					"Mensagem  está  correta": true
+				},
+				{
+					"Status do código é 201": true,
+					"Mensagem  está  correta": true
+				},
+				{
+					"Status do código é 201": true,
+					"Mensagem  está  correta": true
+				},
+				{
+					"Status do código é 201": true,
+					"Mensagem  está  correta": true
+				},
+				{
+					"Status do código é 201": true,
+					"Mensagem  está  correta": true
+				},
+				{
+					"Status do código é 201": true,
+					"Mensagem  está  correta": true
+				},
+				{
+					"Status do código é 201": true,
+					"Mensagem  está  correta": true
+				},
+				{
+					"Status do código é 201": true,
+					"Mensagem  está  correta": true
+				}
+			]
+		},
+		{
+			"id": "55ca75ac-1e78-4b92-8d7b-3802cded3296",
+			"name": "Cadastrar usuário",
+			"time": 9,
+			"responseCode": {
+				"code": 201,
+				"name": "Created"
+			},
+			"tests": {
+				"Status code is 201": true,
+				"Status code name has string": true,
+				"Response time is less than 200ms": true,
+				"response must be valid and have a body": true,
+				"Resposta contém atributo \"message\"": true,
+				"Resposta contém atributo \"_id\"": true
+			},
+			"testPassFailCounts": {
+				"Status code is 201": {
+					"pass": 10,
+					"fail": 0
+				},
+				"Status code name has string": {
+					"pass": 10,
+					"fail": 0
+				},
+				"Response time is less than 200ms": {
+					"pass": 10,
+					"fail": 0
+				},
+				"response must be valid and have a body": {
+					"pass": 10,
+					"fail": 0
+				},
+				"Resposta contém atributo \"message\"": {
+					"pass": 10,
+					"fail": 0
+				},
+				"Resposta contém atributo \"_id\"": {
+					"pass": 10,
+					"fail": 0
+				}
+			},
+			"times": [
+				10,
+				12,
+				8,
+				8,
+				11,
+				9,
+				13,
+				35,
+				10,
+				9
+			],
+			"allTests": [
+				{
+					"Status code is 201": true,
+					"Status code name has string": true,
+					"Response time is less than 200ms": true,
+					"response must be valid and have a body": true,
+					"Resposta contém atributo \"message\"": true,
+					"Resposta contém atributo \"_id\"": true
+				},
+				{
+					"Status code is 201": true,
+					"Status code name has string": true,
+					"Response time is less than 200ms": true,
+					"response must be valid and have a body": true,
+					"Resposta contém atributo \"message\"": true,
+					"Resposta contém atributo \"_id\"": true
+				},
+				{
+					"Status code is 201": true,
+					"Status code name has string": true,
+					"Response time is less than 200ms": true,
+					"response must be valid and have a body": true,
+					"Resposta contém atributo \"message\"": true,
+					"Resposta contém atributo \"_id\"": true
+				},
+				{
+					"Status code is 201": true,
+					"Status code name has string": true,
+					"Response time is less than 200ms": true,
+					"response must be valid and have a body": true,
+					"Resposta contém atributo \"message\"": true,
+					"Resposta contém atributo \"_id\"": true
+				},
+				{
+					"Status code is 201": true,
+					"Status code name has string": true,
+					"Response time is less than 200ms": true,
+					"response must be valid and have a body": true,
+					"Resposta contém atributo \"message\"": true,
+					"Resposta contém atributo \"_id\"": true
+				},
+				{
+					"Status code is 201": true,
+					"Status code name has string": true,
+					"Response time is less than 200ms": true,
+					"response must be valid and have a body": true,
+					"Resposta contém atributo \"message\"": true,
+					"Resposta contém atributo \"_id\"": true
+				},
+				{
+					"Status code is 201": true,
+					"Status code name has string": true,
+					"Response time is less than 200ms": true,
+					"response must be valid and have a body": true,
+					"Resposta contém atributo \"message\"": true,
+					"Resposta contém atributo \"_id\"": true
+				},
+				{
+					"Status code is 201": true,
+					"Status code name has string": true,
+					"Response time is less than 200ms": true,
+					"response must be valid and have a body": true,
+					"Resposta contém atributo \"message\"": true,
+					"Resposta contém atributo \"_id\"": true
+				},
+				{
+					"Status code is 201": true,
+					"Status code name has string": true,
+					"Response time is less than 200ms": true,
+					"response must be valid and have a body": true,
+					"Resposta contém atributo \"message\"": true,
+					"Resposta contém atributo \"_id\"": true
+				},
+				{
+					"Status code is 201": true,
+					"Status code name has string": true,
+					"Response time is less than 200ms": true,
+					"response must be valid and have a body": true,
+					"Resposta contém atributo \"message\"": true,
+					"Resposta contém atributo \"_id\"": true
+				}
+			]
+		},
+		{
+			"id": "72cf874b-15a5-4739-ba2c-412424ec77fa",
+			"name": "Realizar login",
+			"time": 8,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code é 200": true,
+				"Status code name has string": true,
+				"Response time is less than 200ms": true,
+				"Body matches string": true,
+				"response must be valid and have a body": true
+			},
+			"testPassFailCounts": {
+				"Status code é 200": {
+					"pass": 10,
+					"fail": 0
+				},
+				"Status code name has string": {
+					"pass": 10,
+					"fail": 0
+				},
+				"Response time is less than 200ms": {
+					"pass": 10,
+					"fail": 0
+				},
+				"Body matches string": {
+					"pass": 10,
+					"fail": 0
+				},
+				"response must be valid and have a body": {
+					"pass": 10,
+					"fail": 0
+				}
+			},
+			"times": [
+				10,
+				8,
+				8,
+				10,
+				9,
+				8,
+				8,
+				7,
+				8,
+				8
+			],
+			"allTests": [
+				{
+					"Status code é 200": true,
+					"Status code name has string": true,
+					"Response time is less than 200ms": true,
+					"Body matches string": true,
+					"response must be valid and have a body": true
+				},
+				{
+					"Status code é 200": true,
+					"Status code name has string": true,
+					"Response time is less than 200ms": true,
+					"Body matches string": true,
+					"response must be valid and have a body": true
+				},
+				{
+					"Status code é 200": true,
+					"Status code name has string": true,
+					"Response time is less than 200ms": true,
+					"Body matches string": true,
+					"response must be valid and have a body": true
+				},
+				{
+					"Status code é 200": true,
+					"Status code name has string": true,
+					"Response time is less than 200ms": true,
+					"Body matches string": true,
+					"response must be valid and have a body": true
+				},
+				{
+					"Status code é 200": true,
+					"Status code name has string": true,
+					"Response time is less than 200ms": true,
+					"Body matches string": true,
+					"response must be valid and have a body": true
+				},
+				{
+					"Status code é 200": true,
+					"Status code name has string": true,
+					"Response time is less than 200ms": true,
+					"Body matches string": true,
+					"response must be valid and have a body": true
+				},
+				{
+					"Status code é 200": true,
+					"Status code name has string": true,
+					"Response time is less than 200ms": true,
+					"Body matches string": true,
+					"response must be valid and have a body": true
+				},
+				{
+					"Status code é 200": true,
+					"Status code name has string": true,
+					"Response time is less than 200ms": true,
+					"Body matches string": true,
+					"response must be valid and have a body": true
+				},
+				{
+					"Status code é 200": true,
+					"Status code name has string": true,
+					"Response time is less than 200ms": true,
+					"Body matches string": true,
+					"response must be valid and have a body": true
+				},
+				{
+					"Status code é 200": true,
+					"Status code name has string": true,
+					"Response time is less than 200ms": true,
+					"Body matches string": true,
+					"response must be valid and have a body": true
+				}
+			]
+		},
+		{
+			"id": "c9d918f8-2f85-44b2-a6f5-0d59df127613",
+			"name": "Buscar produtos",
+			"time": 7,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code é 200": true,
+				"Status code name has string": true,
+				"Response time is less than 200ms": true,
+				"response must be valid and have a body": true
+			},
+			"testPassFailCounts": {
+				"Status code é 200": {
+					"pass": 10,
+					"fail": 0
+				},
+				"Status code name has string": {
+					"pass": 10,
+					"fail": 0
+				},
+				"Response time is less than 200ms": {
+					"pass": 10,
+					"fail": 0
+				},
+				"response must be valid and have a body": {
+					"pass": 10,
+					"fail": 0
+				}
+			},
+			"times": [
+				9,
+				7,
+				9,
+				8,
+				9,
+				8,
+				8,
+				6,
+				8,
+				7
+			],
+			"allTests": [
+				{
+					"Status code é 200": true,
+					"Status code name has string": true,
+					"Response time is less than 200ms": true,
+					"response must be valid and have a body": true
+				},
+				{
+					"Status code é 200": true,
+					"Status code name has string": true,
+					"Response time is less than 200ms": true,
+					"response must be valid and have a body": true
+				},
+				{
+					"Status code é 200": true,
+					"Status code name has string": true,
+					"Response time is less than 200ms": true,
+					"response must be valid and have a body": true
+				},
+				{
+					"Status code é 200": true,
+					"Status code name has string": true,
+					"Response time is less than 200ms": true,
+					"response must be valid and have a body": true
+				},
+				{
+					"Status code é 200": true,
+					"Status code name has string": true,
+					"Response time is less than 200ms": true,
+					"response must be valid and have a body": true
+				},
+				{
+					"Status code é 200": true,
+					"Status code name has string": true,
+					"Response time is less than 200ms": true,
+					"response must be valid and have a body": true
+				},
+				{
+					"Status code é 200": true,
+					"Status code name has string": true,
+					"Response time is less than 200ms": true,
+					"response must be valid and have a body": true
+				},
+				{
+					"Status code é 200": true,
+					"Status code name has string": true,
+					"Response time is less than 200ms": true,
+					"response must be valid and have a body": true
+				},
+				{
+					"Status code é 200": true,
+					"Status code name has string": true,
+					"Response time is less than 200ms": true,
+					"response must be valid and have a body": true
+				},
+				{
+					"Status code é 200": true,
+					"Status code name has string": true,
+					"Response time is less than 200ms": true,
+					"response must be valid and have a body": true
+				}
+			]
+		},
+		{
+			"id": "0e3d071f-ad9b-4a88-a200-9c68547bb3e0",
+			"name": "Cadastrar carrinho",
+			"time": 14,
+			"responseCode": {
+				"code": 201,
+				"name": "Created"
+			},
+			"tests": {
+				"Status code é 201": true,
+				"Status code name has string": true,
+				"Response time is less than 200ms": true,
+				"response must be valid and have a body": true
+			},
+			"testPassFailCounts": {
+				"Status code é 201": {
+					"pass": 10,
+					"fail": 0
+				},
+				"Status code name has string": {
+					"pass": 10,
+					"fail": 0
+				},
+				"Response time is less than 200ms": {
+					"pass": 10,
+					"fail": 0
+				},
+				"response must be valid and have a body": {
+					"pass": 10,
+					"fail": 0
+				}
+			},
+			"times": [
+				12,
+				13,
+				13,
+				13,
+				20,
+				13,
+				13,
+				10,
+				13,
+				14
+			],
+			"allTests": [
+				{
+					"Status code é 201": true,
+					"Status code name has string": true,
+					"Response time is less than 200ms": true,
+					"response must be valid and have a body": true
+				},
+				{
+					"Status code é 201": true,
+					"Status code name has string": true,
+					"Response time is less than 200ms": true,
+					"response must be valid and have a body": true
+				},
+				{
+					"Status code é 201": true,
+					"Status code name has string": true,
+					"Response time is less than 200ms": true,
+					"response must be valid and have a body": true
+				},
+				{
+					"Status code é 201": true,
+					"Status code name has string": true,
+					"Response time is less than 200ms": true,
+					"response must be valid and have a body": true
+				},
+				{
+					"Status code é 201": true,
+					"Status code name has string": true,
+					"Response time is less than 200ms": true,
+					"response must be valid and have a body": true
+				},
+				{
+					"Status code é 201": true,
+					"Status code name has string": true,
+					"Response time is less than 200ms": true,
+					"response must be valid and have a body": true
+				},
+				{
+					"Status code é 201": true,
+					"Status code name has string": true,
+					"Response time is less than 200ms": true,
+					"response must be valid and have a body": true
+				},
+				{
+					"Status code é 201": true,
+					"Status code name has string": true,
+					"Response time is less than 200ms": true,
+					"response must be valid and have a body": true
+				},
+				{
+					"Status code é 201": true,
+					"Status code name has string": true,
+					"Response time is less than 200ms": true,
+					"response must be valid and have a body": true
+				},
+				{
+					"Status code é 201": true,
+					"Status code name has string": true,
+					"Response time is less than 200ms": true,
+					"response must be valid and have a body": true
+				}
+			]
+		},
+		{
+			"id": "b2b0d30c-0725-4db6-b7ae-ff9845af1220",
+			"name": "Excluir carrinho (concluir-compra)",
+			"time": 10,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code é 200": true,
+				"Status code name has string": true,
+				"Response time is less than 200ms": true,
+				"response must be valid and have a body": true,
+				"Resposta contém o atributo 'menssage'": true
+			},
+			"testPassFailCounts": {
+				"Status code é 200": {
+					"pass": 10,
+					"fail": 0
+				},
+				"Status code name has string": {
+					"pass": 10,
+					"fail": 0
+				},
+				"Response time is less than 200ms": {
+					"pass": 10,
+					"fail": 0
+				},
+				"response must be valid and have a body": {
+					"pass": 10,
+					"fail": 0
+				},
+				"Resposta contém o atributo 'menssage'": {
+					"pass": 10,
+					"fail": 0
+				}
+			},
+			"times": [
+				10,
+				10,
+				10,
+				8,
+				10,
+				11,
+				10,
+				10,
+				11,
+				10
+			],
+			"allTests": [
+				{
+					"Status code é 200": true,
+					"Status code name has string": true,
+					"Response time is less than 200ms": true,
+					"response must be valid and have a body": true,
+					"Resposta contém o atributo 'menssage'": true
+				},
+				{
+					"Status code é 200": true,
+					"Status code name has string": true,
+					"Response time is less than 200ms": true,
+					"response must be valid and have a body": true,
+					"Resposta contém o atributo 'menssage'": true
+				},
+				{
+					"Status code é 200": true,
+					"Status code name has string": true,
+					"Response time is less than 200ms": true,
+					"response must be valid and have a body": true,
+					"Resposta contém o atributo 'menssage'": true
+				},
+				{
+					"Status code é 200": true,
+					"Status code name has string": true,
+					"Response time is less than 200ms": true,
+					"response must be valid and have a body": true,
+					"Resposta contém o atributo 'menssage'": true
+				},
+				{
+					"Status code é 200": true,
+					"Status code name has string": true,
+					"Response time is less than 200ms": true,
+					"response must be valid and have a body": true,
+					"Resposta contém o atributo 'menssage'": true
+				},
+				{
+					"Status code é 200": true,
+					"Status code name has string": true,
+					"Response time is less than 200ms": true,
+					"response must be valid and have a body": true,
+					"Resposta contém o atributo 'menssage'": true
+				},
+				{
+					"Status code é 200": true,
+					"Status code name has string": true,
+					"Response time is less than 200ms": true,
+					"response must be valid and have a body": true,
+					"Resposta contém o atributo 'menssage'": true
+				},
+				{
+					"Status code é 200": true,
+					"Status code name has string": true,
+					"Response time is less than 200ms": true,
+					"response must be valid and have a body": true,
+					"Resposta contém o atributo 'menssage'": true
+				},
+				{
+					"Status code é 200": true,
+					"Status code name has string": true,
+					"Response time is less than 200ms": true,
+					"response must be valid and have a body": true,
+					"Resposta contém o atributo 'menssage'": true
+				},
+				{
+					"Status code é 200": true,
+					"Status code name has string": true,
+					"Response time is less than 200ms": true,
+					"response must be valid and have a body": true,
+					"Resposta contém o atributo 'menssage'": true
+				}
+			]
+		},
+		{
+			"id": "7ddb3076-865d-47df-a174-e14f72ec3dbc",
+			"name": "Cadastrar usuário",
+			"time": 7,
+			"responseCode": {
+				"code": 201,
+				"name": "Created"
+			},
+			"tests": {
+				"Status code is 201": true,
+				"Status code name has string": true,
+				"Response time is less than 200ms": true,
+				"response must be valid and have a body": true,
+				"Resposta contém atributo \"message\"": true,
+				"Resposta contém atributo \"_id\"": true
+			},
+			"testPassFailCounts": {
+				"Status code is 201": {
+					"pass": 10,
+					"fail": 0
+				},
+				"Status code name has string": {
+					"pass": 10,
+					"fail": 0
+				},
+				"Response time is less than 200ms": {
+					"pass": 10,
+					"fail": 0
+				},
+				"response must be valid and have a body": {
+					"pass": 10,
+					"fail": 0
+				},
+				"Resposta contém atributo \"message\"": {
+					"pass": 10,
+					"fail": 0
+				},
+				"Resposta contém atributo \"_id\"": {
+					"pass": 10,
+					"fail": 0
+				}
+			},
+			"times": [
+				21,
+				16,
+				41,
+				8,
+				9,
+				11,
+				13,
+				11,
+				10,
+				7
+			],
+			"allTests": [
+				{
+					"Status code is 201": true,
+					"Status code name has string": true,
+					"Response time is less than 200ms": true,
+					"response must be valid and have a body": true,
+					"Resposta contém atributo \"message\"": true,
+					"Resposta contém atributo \"_id\"": true
+				},
+				{
+					"Status code is 201": true,
+					"Status code name has string": true,
+					"Response time is less than 200ms": true,
+					"response must be valid and have a body": true,
+					"Resposta contém atributo \"message\"": true,
+					"Resposta contém atributo \"_id\"": true
+				},
+				{
+					"Status code is 201": true,
+					"Status code name has string": true,
+					"Response time is less than 200ms": true,
+					"response must be valid and have a body": true,
+					"Resposta contém atributo \"message\"": true,
+					"Resposta contém atributo \"_id\"": true
+				},
+				{
+					"Status code is 201": true,
+					"Status code name has string": true,
+					"Response time is less than 200ms": true,
+					"response must be valid and have a body": true,
+					"Resposta contém atributo \"message\"": true,
+					"Resposta contém atributo \"_id\"": true
+				},
+				{
+					"Status code is 201": true,
+					"Status code name has string": true,
+					"Response time is less than 200ms": true,
+					"response must be valid and have a body": true,
+					"Resposta contém atributo \"message\"": true,
+					"Resposta contém atributo \"_id\"": true
+				},
+				{
+					"Status code is 201": true,
+					"Status code name has string": true,
+					"Response time is less than 200ms": true,
+					"response must be valid and have a body": true,
+					"Resposta contém atributo \"message\"": true,
+					"Resposta contém atributo \"_id\"": true
+				},
+				{
+					"Status code is 201": true,
+					"Status code name has string": true,
+					"Response time is less than 200ms": true,
+					"response must be valid and have a body": true,
+					"Resposta contém atributo \"message\"": true,
+					"Resposta contém atributo \"_id\"": true
+				},
+				{
+					"Status code is 201": true,
+					"Status code name has string": true,
+					"Response time is less than 200ms": true,
+					"response must be valid and have a body": true,
+					"Resposta contém atributo \"message\"": true,
+					"Resposta contém atributo \"_id\"": true
+				},
+				{
+					"Status code is 201": true,
+					"Status code name has string": true,
+					"Response time is less than 200ms": true,
+					"response must be valid and have a body": true,
+					"Resposta contém atributo \"message\"": true,
+					"Resposta contém atributo \"_id\"": true
+				},
+				{
+					"Status code is 201": true,
+					"Status code name has string": true,
+					"Response time is less than 200ms": true,
+					"response must be valid and have a body": true,
+					"Resposta contém atributo \"message\"": true,
+					"Resposta contém atributo \"_id\"": true
+				}
+			]
+		},
+		{
+			"id": "9ba6ee84-c309-43e0-9d8d-9e85882cb52e",
+			"name": "Realizar login",
+			"time": 7,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code é 200": true,
+				"Status code name has string": true,
+				"Response time is less than 200ms": true,
+				"Body matches string": true,
+				"response must be valid and have a body": true
+			},
+			"testPassFailCounts": {
+				"Status code é 200": {
+					"pass": 10,
+					"fail": 0
+				},
+				"Status code name has string": {
+					"pass": 10,
+					"fail": 0
+				},
+				"Response time is less than 200ms": {
+					"pass": 10,
+					"fail": 0
+				},
+				"Body matches string": {
+					"pass": 10,
+					"fail": 0
+				},
+				"response must be valid and have a body": {
+					"pass": 10,
+					"fail": 0
+				}
+			},
+			"times": [
+				9,
+				7,
+				11,
+				8,
+				9,
+				8,
+				7,
+				6,
+				8,
+				7
+			],
+			"allTests": [
+				{
+					"Status code é 200": true,
+					"Status code name has string": true,
+					"Response time is less than 200ms": true,
+					"Body matches string": true,
+					"response must be valid and have a body": true
+				},
+				{
+					"Status code é 200": true,
+					"Status code name has string": true,
+					"Response time is less than 200ms": true,
+					"Body matches string": true,
+					"response must be valid and have a body": true
+				},
+				{
+					"Status code é 200": true,
+					"Status code name has string": true,
+					"Response time is less than 200ms": true,
+					"Body matches string": true,
+					"response must be valid and have a body": true
+				},
+				{
+					"Status code é 200": true,
+					"Status code name has string": true,
+					"Response time is less than 200ms": true,
+					"Body matches string": true,
+					"response must be valid and have a body": true
+				},
+				{
+					"Status code é 200": true,
+					"Status code name has string": true,
+					"Response time is less than 200ms": true,
+					"Body matches string": true,
+					"response must be valid and have a body": true
+				},
+				{
+					"Status code é 200": true,
+					"Status code name has string": true,
+					"Response time is less than 200ms": true,
+					"Body matches string": true,
+					"response must be valid and have a body": true
+				},
+				{
+					"Status code é 200": true,
+					"Status code name has string": true,
+					"Response time is less than 200ms": true,
+					"Body matches string": true,
+					"response must be valid and have a body": true
+				},
+				{
+					"Status code é 200": true,
+					"Status code name has string": true,
+					"Response time is less than 200ms": true,
+					"Body matches string": true,
+					"response must be valid and have a body": true
+				},
+				{
+					"Status code é 200": true,
+					"Status code name has string": true,
+					"Response time is less than 200ms": true,
+					"Body matches string": true,
+					"response must be valid and have a body": true
+				},
+				{
+					"Status code é 200": true,
+					"Status code name has string": true,
+					"Response time is less than 200ms": true,
+					"Body matches string": true,
+					"response must be valid and have a body": true
+				}
+			]
+		},
+		{
+			"id": "d2039122-5859-4cae-a985-ab5f76374c5a",
+			"name": "listar produtos",
+			"time": 7,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code é 200": true,
+				"Status code name has string": true,
+				"Response time is less than 200ms": true,
+				"response must be valid and have a body": true
+			},
+			"testPassFailCounts": {
+				"Status code é 200": {
+					"pass": 10,
+					"fail": 0
+				},
+				"Status code name has string": {
+					"pass": 10,
+					"fail": 0
+				},
+				"Response time is less than 200ms": {
+					"pass": 10,
+					"fail": 0
+				},
+				"response must be valid and have a body": {
+					"pass": 10,
+					"fail": 0
+				}
+			},
+			"times": [
+				9,
+				8,
+				12,
+				8,
+				9,
+				8,
+				8,
+				9,
+				8,
+				7
+			],
+			"allTests": [
+				{
+					"Status code é 200": true,
+					"Status code name has string": true,
+					"Response time is less than 200ms": true,
+					"response must be valid and have a body": true
+				},
+				{
+					"Status code é 200": true,
+					"Status code name has string": true,
+					"Response time is less than 200ms": true,
+					"response must be valid and have a body": true
+				},
+				{
+					"Status code é 200": true,
+					"Status code name has string": true,
+					"Response time is less than 200ms": true,
+					"response must be valid and have a body": true
+				},
+				{
+					"Status code é 200": true,
+					"Status code name has string": true,
+					"Response time is less than 200ms": true,
+					"response must be valid and have a body": true
+				},
+				{
+					"Status code é 200": true,
+					"Status code name has string": true,
+					"Response time is less than 200ms": true,
+					"response must be valid and have a body": true
+				},
+				{
+					"Status code é 200": true,
+					"Status code name has string": true,
+					"Response time is less than 200ms": true,
+					"response must be valid and have a body": true
+				},
+				{
+					"Status code é 200": true,
+					"Status code name has string": true,
+					"Response time is less than 200ms": true,
+					"response must be valid and have a body": true
+				},
+				{
+					"Status code é 200": true,
+					"Status code name has string": true,
+					"Response time is less than 200ms": true,
+					"response must be valid and have a body": true
+				},
+				{
+					"Status code é 200": true,
+					"Status code name has string": true,
+					"Response time is less than 200ms": true,
+					"response must be valid and have a body": true
+				},
+				{
+					"Status code é 200": true,
+					"Status code name has string": true,
+					"Response time is less than 200ms": true,
+					"response must be valid and have a body": true
+				}
+			]
+		},
+		{
+			"id": "c9e0e182-f5df-4a18-b371-8b52c693b6be",
+			"name": "Cadastrar carrinho",
+			"time": 11,
+			"responseCode": {
+				"code": 201,
+				"name": "Created"
+			},
+			"tests": {
+				"Status code é 201": true,
+				"Status code name has string": true,
+				"Response time is less than 200ms": true,
+				"response must be valid and have a body": true
+			},
+			"testPassFailCounts": {
+				"Status code é 201": {
+					"pass": 10,
+					"fail": 0
+				},
+				"Status code name has string": {
+					"pass": 10,
+					"fail": 0
+				},
+				"Response time is less than 200ms": {
+					"pass": 10,
+					"fail": 0
+				},
+				"response must be valid and have a body": {
+					"pass": 10,
+					"fail": 0
+				}
+			},
+			"times": [
+				19,
+				18,
+				14,
+				13,
+				13,
+				14,
+				13,
+				14,
+				12,
+				11
+			],
+			"allTests": [
+				{
+					"Status code é 201": true,
+					"Status code name has string": true,
+					"Response time is less than 200ms": true,
+					"response must be valid and have a body": true
+				},
+				{
+					"Status code é 201": true,
+					"Status code name has string": true,
+					"Response time is less than 200ms": true,
+					"response must be valid and have a body": true
+				},
+				{
+					"Status code é 201": true,
+					"Status code name has string": true,
+					"Response time is less than 200ms": true,
+					"response must be valid and have a body": true
+				},
+				{
+					"Status code é 201": true,
+					"Status code name has string": true,
+					"Response time is less than 200ms": true,
+					"response must be valid and have a body": true
+				},
+				{
+					"Status code é 201": true,
+					"Status code name has string": true,
+					"Response time is less than 200ms": true,
+					"response must be valid and have a body": true
+				},
+				{
+					"Status code é 201": true,
+					"Status code name has string": true,
+					"Response time is less than 200ms": true,
+					"response must be valid and have a body": true
+				},
+				{
+					"Status code é 201": true,
+					"Status code name has string": true,
+					"Response time is less than 200ms": true,
+					"response must be valid and have a body": true
+				},
+				{
+					"Status code é 201": true,
+					"Status code name has string": true,
+					"Response time is less than 200ms": true,
+					"response must be valid and have a body": true
+				},
+				{
+					"Status code é 201": true,
+					"Status code name has string": true,
+					"Response time is less than 200ms": true,
+					"response must be valid and have a body": true
+				},
+				{
+					"Status code é 201": true,
+					"Status code name has string": true,
+					"Response time is less than 200ms": true,
+					"response must be valid and have a body": true
+				}
+			]
+		},
+		{
+			"id": "113ee8f9-9baf-43f6-b4cc-af838afea6ca",
+			"name": "Excluir carrinho e retornar produtos para estoque",
+			"time": 8,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code é 200": true,
+				"Status code name has string": true,
+				"Response time is less than 200ms": true,
+				"response must be valid and have a body": true,
+				"Resposta contém o atributo 'menssage'": true
+			},
+			"testPassFailCounts": {
+				"Status code é 200": {
+					"pass": 10,
+					"fail": 0
+				},
+				"Status code name has string": {
+					"pass": 10,
+					"fail": 0
+				},
+				"Response time is less than 200ms": {
+					"pass": 10,
+					"fail": 0
+				},
+				"response must be valid and have a body": {
+					"pass": 10,
+					"fail": 0
+				},
+				"Resposta contém o atributo 'menssage'": {
+					"pass": 10,
+					"fail": 0
+				}
+			},
+			"times": [
+				14,
+				12,
+				10,
+				13,
+				10,
+				15,
+				10,
+				13,
+				10,
+				8
+			],
+			"allTests": [
+				{
+					"Status code é 200": true,
+					"Status code name has string": true,
+					"Response time is less than 200ms": true,
+					"response must be valid and have a body": true,
+					"Resposta contém o atributo 'menssage'": true
+				},
+				{
+					"Status code é 200": true,
+					"Status code name has string": true,
+					"Response time is less than 200ms": true,
+					"response must be valid and have a body": true,
+					"Resposta contém o atributo 'menssage'": true
+				},
+				{
+					"Status code é 200": true,
+					"Status code name has string": true,
+					"Response time is less than 200ms": true,
+					"response must be valid and have a body": true,
+					"Resposta contém o atributo 'menssage'": true
+				},
+				{
+					"Status code é 200": true,
+					"Status code name has string": true,
+					"Response time is less than 200ms": true,
+					"response must be valid and have a body": true,
+					"Resposta contém o atributo 'menssage'": true
+				},
+				{
+					"Status code é 200": true,
+					"Status code name has string": true,
+					"Response time is less than 200ms": true,
+					"response must be valid and have a body": true,
+					"Resposta contém o atributo 'menssage'": true
+				},
+				{
+					"Status code é 200": true,
+					"Status code name has string": true,
+					"Response time is less than 200ms": true,
+					"response must be valid and have a body": true,
+					"Resposta contém o atributo 'menssage'": true
+				},
+				{
+					"Status code é 200": true,
+					"Status code name has string": true,
+					"Response time is less than 200ms": true,
+					"response must be valid and have a body": true,
+					"Resposta contém o atributo 'menssage'": true
+				},
+				{
+					"Status code é 200": true,
+					"Status code name has string": true,
+					"Response time is less than 200ms": true,
+					"response must be valid and have a body": true,
+					"Resposta contém o atributo 'menssage'": true
+				},
+				{
+					"Status code é 200": true,
+					"Status code name has string": true,
+					"Response time is less than 200ms": true,
+					"response must be valid and have a body": true,
+					"Resposta contém o atributo 'menssage'": true
+				},
+				{
+					"Status code é 200": true,
+					"Status code name has string": true,
+					"Response time is less than 200ms": true,
+					"response must be valid and have a body": true,
+					"Resposta contém o atributo 'menssage'": true
+				}
+			]
+		},
+		{
+			"id": "acd0d8df-547f-42a3-9ea5-00e3a8ae82c3",
+			"name": "Login ✔️",
+			"time": 8,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status do código é 200": true,
+				"Mensagem  está  correta": true
+			},
+			"testPassFailCounts": {
+				"Status do código é 200": {
+					"pass": 10,
+					"fail": 0
+				},
+				"Mensagem  está  correta": {
+					"pass": 10,
+					"fail": 0
+				}
+			},
+			"times": [
+				10,
+				10,
+				8,
+				8,
+				9,
+				8,
+				8,
+				6,
+				42,
+				8
+			],
+			"allTests": [
+				{
+					"Status do código é 200": true,
+					"Mensagem  está  correta": true
+				},
+				{
+					"Status do código é 200": true,
+					"Mensagem  está  correta": true
+				},
+				{
+					"Status do código é 200": true,
+					"Mensagem  está  correta": true
+				},
+				{
+					"Status do código é 200": true,
+					"Mensagem  está  correta": true
+				},
+				{
+					"Status do código é 200": true,
+					"Mensagem  está  correta": true
+				},
+				{
+					"Status do código é 200": true,
+					"Mensagem  está  correta": true
+				},
+				{
+					"Status do código é 200": true,
+					"Mensagem  está  correta": true
+				},
+				{
+					"Status do código é 200": true,
+					"Mensagem  está  correta": true
+				},
+				{
+					"Status do código é 200": true,
+					"Mensagem  está  correta": true
+				},
+				{
+					"Status do código é 200": true,
+					"Mensagem  está  correta": true
+				}
+			]
+		},
+		{
+			"id": "309bd494-baf4-410c-9a87-8bc43fb441f5",
+			"name": "Login_email_vazio ❌",
+			"time": 6,
+			"responseCode": {
+				"code": 400,
+				"name": "Bad Request"
+			},
+			"tests": {
+				"Status do código é 400": true,
+				"Mensagem  está  correta": true
+			},
+			"testPassFailCounts": {
+				"Status do código é 400": {
+					"pass": 10,
+					"fail": 0
+				},
+				"Mensagem  está  correta": {
+					"pass": 10,
+					"fail": 0
+				}
+			},
+			"times": [
+				7,
+				6,
+				7,
+				6,
+				7,
+				8,
+				11,
+				5,
+				7,
+				6
+			],
+			"allTests": [
+				{
+					"Status do código é 400": true,
+					"Mensagem  está  correta": true
+				},
+				{
+					"Status do código é 400": true,
+					"Mensagem  está  correta": true
+				},
+				{
+					"Status do código é 400": true,
+					"Mensagem  está  correta": true
+				},
+				{
+					"Status do código é 400": true,
+					"Mensagem  está  correta": true
+				},
+				{
+					"Status do código é 400": true,
+					"Mensagem  está  correta": true
+				},
+				{
+					"Status do código é 400": true,
+					"Mensagem  está  correta": true
+				},
+				{
+					"Status do código é 400": true,
+					"Mensagem  está  correta": true
+				},
+				{
+					"Status do código é 400": true,
+					"Mensagem  está  correta": true
+				},
+				{
+					"Status do código é 400": true,
+					"Mensagem  está  correta": true
+				},
+				{
+					"Status do código é 400": true,
+					"Mensagem  está  correta": true
+				}
+			]
+		},
+		{
+			"id": "7a655cb9-4b96-4379-ba05-258809eb443b",
+			"name": "Login _senha_vazia ❌",
+			"time": 6,
+			"responseCode": {
+				"code": 400,
+				"name": "Bad Request"
+			},
+			"tests": {
+				"Status do código é 400": true,
+				"Mensagem  está  correta": true
+			},
+			"testPassFailCounts": {
+				"Status do código é 400": {
+					"pass": 10,
+					"fail": 0
+				},
+				"Mensagem  está  correta": {
+					"pass": 10,
+					"fail": 0
+				}
+			},
+			"times": [
+				15,
+				6,
+				7,
+				8,
+				9,
+				6,
+				7,
+				5,
+				6,
+				6
+			],
+			"allTests": [
+				{
+					"Status do código é 400": true,
+					"Mensagem  está  correta": true
+				},
+				{
+					"Status do código é 400": true,
+					"Mensagem  está  correta": true
+				},
+				{
+					"Status do código é 400": true,
+					"Mensagem  está  correta": true
+				},
+				{
+					"Status do código é 400": true,
+					"Mensagem  está  correta": true
+				},
+				{
+					"Status do código é 400": true,
+					"Mensagem  está  correta": true
+				},
+				{
+					"Status do código é 400": true,
+					"Mensagem  está  correta": true
+				},
+				{
+					"Status do código é 400": true,
+					"Mensagem  está  correta": true
+				},
+				{
+					"Status do código é 400": true,
+					"Mensagem  está  correta": true
+				},
+				{
+					"Status do código é 400": true,
+					"Mensagem  está  correta": true
+				},
+				{
+					"Status do código é 400": true,
+					"Mensagem  está  correta": true
+				}
+			]
+		},
+		{
+			"id": "1d4543e5-5ad2-49d2-9341-b62afc0675cb",
+			"name": "Login _Email_incorreto ❌",
+			"time": 6,
+			"responseCode": {
+				"code": 400,
+				"name": "Bad Request"
+			},
+			"tests": {
+				"Status do código é 400": true,
+				"Mensagem  está  correta": true
+			},
+			"testPassFailCounts": {
+				"Status do código é 400": {
+					"pass": 10,
+					"fail": 0
+				},
+				"Mensagem  está  correta": {
+					"pass": 10,
+					"fail": 0
+				}
+			},
+			"times": [
+				32,
+				6,
+				7,
+				6,
+				7,
+				9,
+				8,
+				5,
+				7,
+				6
+			],
+			"allTests": [
+				{
+					"Status do código é 400": true,
+					"Mensagem  está  correta": true
+				},
+				{
+					"Status do código é 400": true,
+					"Mensagem  está  correta": true
+				},
+				{
+					"Status do código é 400": true,
+					"Mensagem  está  correta": true
+				},
+				{
+					"Status do código é 400": true,
+					"Mensagem  está  correta": true
+				},
+				{
+					"Status do código é 400": true,
+					"Mensagem  está  correta": true
+				},
+				{
+					"Status do código é 400": true,
+					"Mensagem  está  correta": true
+				},
+				{
+					"Status do código é 400": true,
+					"Mensagem  está  correta": true
+				},
+				{
+					"Status do código é 400": true,
+					"Mensagem  está  correta": true
+				},
+				{
+					"Status do código é 400": true,
+					"Mensagem  está  correta": true
+				},
+				{
+					"Status do código é 400": true,
+					"Mensagem  está  correta": true
+				}
+			]
+		},
+		{
+			"id": "efdccbc1-ec00-4ad5-83b7-ad36eb9df2c3",
+			"name": "Login _Senha_incorreta ❌",
+			"time": 9,
+			"responseCode": {
+				"code": 401,
+				"name": "Unauthorized"
+			},
+			"tests": {
+				"Status do código é 401": true,
+				"Mensagem  está  correta": true
+			},
+			"testPassFailCounts": {
+				"Status do código é 401": {
+					"pass": 10,
+					"fail": 0
+				},
+				"Mensagem  está  correta": {
+					"pass": 10,
+					"fail": 0
+				}
+			},
+			"times": [
+				9,
+				7,
+				8,
+				6,
+				6,
+				8,
+				8,
+				6,
+				7,
+				9
+			],
+			"allTests": [
+				{
+					"Status do código é 401": true,
+					"Mensagem  está  correta": true
+				},
+				{
+					"Status do código é 401": true,
+					"Mensagem  está  correta": true
+				},
+				{
+					"Status do código é 401": true,
+					"Mensagem  está  correta": true
+				},
+				{
+					"Status do código é 401": true,
+					"Mensagem  está  correta": true
+				},
+				{
+					"Status do código é 401": true,
+					"Mensagem  está  correta": true
+				},
+				{
+					"Status do código é 401": true,
+					"Mensagem  está  correta": true
+				},
+				{
+					"Status do código é 401": true,
+					"Mensagem  está  correta": true
+				},
+				{
+					"Status do código é 401": true,
+					"Mensagem  está  correta": true
+				},
+				{
+					"Status do código é 401": true,
+					"Mensagem  está  correta": true
+				},
+				{
+					"Status do código é 401": true,
+					"Mensagem  está  correta": true
+				}
+			]
+		},
+		{
+			"id": "0ec8cdb0-49d1-4ace-a2bf-717bcaccebd1",
+			"name": "/lista_de_usuarios ✔️",
+			"time": 11,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status do código é 200": true
+			},
+			"testPassFailCounts": {
+				"Status do código é 200": {
+					"pass": 10,
+					"fail": 0
+				}
+			},
+			"times": [
+				17,
+				10,
+				9,
+				9,
+				10,
+				11,
+				14,
+				11,
+				11,
+				11
+			],
+			"allTests": [
+				{
+					"Status do código é 200": true
+				},
+				{
+					"Status do código é 200": true
+				},
+				{
+					"Status do código é 200": true
+				},
+				{
+					"Status do código é 200": true
+				},
+				{
+					"Status do código é 200": true
+				},
+				{
+					"Status do código é 200": true
+				},
+				{
+					"Status do código é 200": true
+				},
+				{
+					"Status do código é 200": true
+				},
+				{
+					"Status do código é 200": true
+				},
+				{
+					"Status do código é 200": true
+				}
+			]
+		},
+		{
+			"id": "e6f3e062-8276-4b91-a576-49c2c4ea62f0",
+			"name": "Buscar_usuario✔️",
+			"time": 6,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status do código é 200": true,
+				"Resposta contém atributo\"nome": true,
+				"Resposta contém atributo\"email": true,
+				"Resposta contém atributo\"password": true,
+				"Resposta contém atributo\"administrador": true,
+				"Resposta contém atributo\"_id": true
+			},
+			"testPassFailCounts": {
+				"Status do código é 200": {
+					"pass": 10,
+					"fail": 0
+				},
+				"Resposta contém atributo\"nome": {
+					"pass": 10,
+					"fail": 0
+				},
+				"Resposta contém atributo\"email": {
+					"pass": 10,
+					"fail": 0
+				},
+				"Resposta contém atributo\"password": {
+					"pass": 10,
+					"fail": 0
+				},
+				"Resposta contém atributo\"administrador": {
+					"pass": 10,
+					"fail": 0
+				},
+				"Resposta contém atributo\"_id": {
+					"pass": 10,
+					"fail": 0
+				}
+			},
+			"times": [
+				9,
+				6,
+				8,
+				6,
+				8,
+				11,
+				6,
+				5,
+				6,
+				6
+			],
+			"allTests": [
+				{
+					"Status do código é 200": true,
+					"Resposta contém atributo\"nome": true,
+					"Resposta contém atributo\"email": true,
+					"Resposta contém atributo\"password": true,
+					"Resposta contém atributo\"administrador": true,
+					"Resposta contém atributo\"_id": true
+				},
+				{
+					"Status do código é 200": true,
+					"Resposta contém atributo\"nome": true,
+					"Resposta contém atributo\"email": true,
+					"Resposta contém atributo\"password": true,
+					"Resposta contém atributo\"administrador": true,
+					"Resposta contém atributo\"_id": true
+				},
+				{
+					"Status do código é 200": true,
+					"Resposta contém atributo\"nome": true,
+					"Resposta contém atributo\"email": true,
+					"Resposta contém atributo\"password": true,
+					"Resposta contém atributo\"administrador": true,
+					"Resposta contém atributo\"_id": true
+				},
+				{
+					"Status do código é 200": true,
+					"Resposta contém atributo\"nome": true,
+					"Resposta contém atributo\"email": true,
+					"Resposta contém atributo\"password": true,
+					"Resposta contém atributo\"administrador": true,
+					"Resposta contém atributo\"_id": true
+				},
+				{
+					"Status do código é 200": true,
+					"Resposta contém atributo\"nome": true,
+					"Resposta contém atributo\"email": true,
+					"Resposta contém atributo\"password": true,
+					"Resposta contém atributo\"administrador": true,
+					"Resposta contém atributo\"_id": true
+				},
+				{
+					"Status do código é 200": true,
+					"Resposta contém atributo\"nome": true,
+					"Resposta contém atributo\"email": true,
+					"Resposta contém atributo\"password": true,
+					"Resposta contém atributo\"administrador": true,
+					"Resposta contém atributo\"_id": true
+				},
+				{
+					"Status do código é 200": true,
+					"Resposta contém atributo\"nome": true,
+					"Resposta contém atributo\"email": true,
+					"Resposta contém atributo\"password": true,
+					"Resposta contém atributo\"administrador": true,
+					"Resposta contém atributo\"_id": true
+				},
+				{
+					"Status do código é 200": true,
+					"Resposta contém atributo\"nome": true,
+					"Resposta contém atributo\"email": true,
+					"Resposta contém atributo\"password": true,
+					"Resposta contém atributo\"administrador": true,
+					"Resposta contém atributo\"_id": true
+				},
+				{
+					"Status do código é 200": true,
+					"Resposta contém atributo\"nome": true,
+					"Resposta contém atributo\"email": true,
+					"Resposta contém atributo\"password": true,
+					"Resposta contém atributo\"administrador": true,
+					"Resposta contém atributo\"_id": true
+				},
+				{
+					"Status do código é 200": true,
+					"Resposta contém atributo\"nome": true,
+					"Resposta contém atributo\"email": true,
+					"Resposta contém atributo\"password": true,
+					"Resposta contém atributo\"administrador": true,
+					"Resposta contém atributo\"_id": true
+				}
+			]
+		},
+		{
+			"id": "c44892af-7cf9-48d4-809a-dbf0b8f65d52",
+			"name": "Del_usuário✔️",
+			"time": 8,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status do código é 200": true,
+				"Mensagem  está  correta": true
+			},
+			"testPassFailCounts": {
+				"Status do código é 200": {
+					"pass": 10,
+					"fail": 0
+				},
+				"Mensagem  está  correta": {
+					"pass": 10,
+					"fail": 0
+				}
+			},
+			"times": [
+				9,
+				7,
+				7,
+				7,
+				11,
+				8,
+				8,
+				9,
+				6,
+				8
+			],
+			"allTests": [
+				{
+					"Status do código é 200": true,
+					"Mensagem  está  correta": true
+				},
+				{
+					"Status do código é 200": true,
+					"Mensagem  está  correta": true
+				},
+				{
+					"Status do código é 200": true,
+					"Mensagem  está  correta": true
+				},
+				{
+					"Status do código é 200": true,
+					"Mensagem  está  correta": true
+				},
+				{
+					"Status do código é 200": true,
+					"Mensagem  está  correta": true
+				},
+				{
+					"Status do código é 200": true,
+					"Mensagem  está  correta": true
+				},
+				{
+					"Status do código é 200": true,
+					"Mensagem  está  correta": true
+				},
+				{
+					"Status do código é 200": true,
+					"Mensagem  está  correta": true
+				},
+				{
+					"Status do código é 200": true,
+					"Mensagem  está  correta": true
+				},
+				{
+					"Status do código é 200": true,
+					"Mensagem  está  correta": true
+				}
+			]
+		},
+		{
+			"id": "37318d04-ec67-4f55-bd19-3fed95369cd4",
+			"name": "Editar_usuario✔️",
+			"time": 9,
+			"responseCode": {
+				"code": 201,
+				"name": "Created"
+			},
+			"tests": {
+				"Status do código é 201": true
+			},
+			"testPassFailCounts": {
+				"Status do código é 201": {
+					"pass": 10,
+					"fail": 0
+				}
+			},
+			"times": [
+				12,
+				8,
+				11,
+				8,
+				10,
+				25,
+				9,
+				8,
+				14,
+				9
+			],
+			"allTests": [
+				{
+					"Status do código é 201": true
+				},
+				{
+					"Status do código é 201": true
+				},
+				{
+					"Status do código é 201": true
+				},
+				{
+					"Status do código é 201": true
+				},
+				{
+					"Status do código é 201": true
+				},
+				{
+					"Status do código é 201": true
+				},
+				{
+					"Status do código é 201": true
+				},
+				{
+					"Status do código é 201": true
+				},
+				{
+					"Status do código é 201": true
+				},
+				{
+					"Status do código é 201": true
+				}
+			]
+		},
+		{
+			"id": "844fc87d-2876-495f-affb-d74a6a272b06",
+			"name": "Editar_usuario_novo✔️",
+			"time": 8,
+			"responseCode": {
+				"code": 201,
+				"name": "Created"
+			},
+			"tests": {
+				"Status do código é 201": true,
+				"Mensagem  está  correta": true
+			},
+			"testPassFailCounts": {
+				"Status do código é 201": {
+					"pass": 10,
+					"fail": 0
+				},
+				"Mensagem  está  correta": {
+					"pass": 10,
+					"fail": 0
+				}
+			},
+			"times": [
+				12,
+				10,
+				23,
+				64,
+				9,
+				14,
+				8,
+				7,
+				9,
+				8
+			],
+			"allTests": [
+				{
+					"Status do código é 201": true,
+					"Mensagem  está  correta": true
+				},
+				{
+					"Status do código é 201": true,
+					"Mensagem  está  correta": true
+				},
+				{
+					"Status do código é 201": true,
+					"Mensagem  está  correta": true
+				},
+				{
+					"Status do código é 201": true,
+					"Mensagem  está  correta": true
+				},
+				{
+					"Status do código é 201": true,
+					"Mensagem  está  correta": true
+				},
+				{
+					"Status do código é 201": true,
+					"Mensagem  está  correta": true
+				},
+				{
+					"Status do código é 201": true,
+					"Mensagem  está  correta": true
+				},
+				{
+					"Status do código é 201": true,
+					"Mensagem  está  correta": true
+				},
+				{
+					"Status do código é 201": true,
+					"Mensagem  está  correta": true
+				},
+				{
+					"Status do código é 201": true,
+					"Mensagem  está  correta": true
+				}
+			]
+		},
+		{
+			"id": "7e51f0d6-fbaa-48ac-b9cc-69659d538fe2",
+			"name": "Add_usuariosComum✔️",
+			"time": 15,
+			"responseCode": {
+				"code": 201,
+				"name": "Created"
+			},
+			"tests": {
+				"Status do código é 201": true,
+				"Mensagem  está  correta": true
+			},
+			"testPassFailCounts": {
+				"Status do código é 201": {
+					"pass": 10,
+					"fail": 0
+				},
+				"Mensagem  está  correta": {
+					"pass": 10,
+					"fail": 0
+				}
+			},
+			"times": [
+				9,
+				10,
+				9,
+				9,
+				13,
+				11,
+				11,
+				9,
+				8,
+				15
+			],
+			"allTests": [
+				{
+					"Status do código é 201": true,
+					"Mensagem  está  correta": true
+				},
+				{
+					"Status do código é 201": true,
+					"Mensagem  está  correta": true
+				},
+				{
+					"Status do código é 201": true,
+					"Mensagem  está  correta": true
+				},
+				{
+					"Status do código é 201": true,
+					"Mensagem  está  correta": true
+				},
+				{
+					"Status do código é 201": true,
+					"Mensagem  está  correta": true
+				},
+				{
+					"Status do código é 201": true,
+					"Mensagem  está  correta": true
+				},
+				{
+					"Status do código é 201": true,
+					"Mensagem  está  correta": true
+				},
+				{
+					"Status do código é 201": true,
+					"Mensagem  está  correta": true
+				},
+				{
+					"Status do código é 201": true,
+					"Mensagem  está  correta": true
+				},
+				{
+					"Status do código é 201": true,
+					"Mensagem  está  correta": true
+				}
+			]
+		},
+		{
+			"id": "3f9575fe-cdc2-4751-b68d-292b2fdf71f4",
+			"name": "Add_usuariosADM✔️",
+			"time": 9,
+			"responseCode": {
+				"code": 201,
+				"name": "Created"
+			},
+			"tests": {
+				"Status do código é 201": true,
+				"Mensagem  está  correta": true
+			},
+			"testPassFailCounts": {
+				"Status do código é 201": {
+					"pass": 10,
+					"fail": 0
+				},
+				"Mensagem  está  correta": {
+					"pass": 10,
+					"fail": 0
+				}
+			},
+			"times": [
+				15,
+				9,
+				10,
+				10,
+				8,
+				23,
+				9,
+				10,
+				8,
+				9
+			],
+			"allTests": [
+				{
+					"Status do código é 201": true,
+					"Mensagem  está  correta": true
+				},
+				{
+					"Status do código é 201": true,
+					"Mensagem  está  correta": true
+				},
+				{
+					"Status do código é 201": true,
+					"Mensagem  está  correta": true
+				},
+				{
+					"Status do código é 201": true,
+					"Mensagem  está  correta": true
+				},
+				{
+					"Status do código é 201": true,
+					"Mensagem  está  correta": true
+				},
+				{
+					"Status do código é 201": true,
+					"Mensagem  está  correta": true
+				},
+				{
+					"Status do código é 201": true,
+					"Mensagem  está  correta": true
+				},
+				{
+					"Status do código é 201": true,
+					"Mensagem  está  correta": true
+				},
+				{
+					"Status do código é 201": true,
+					"Mensagem  está  correta": true
+				},
+				{
+					"Status do código é 201": true,
+					"Mensagem  está  correta": true
+				}
+			]
+		},
+		{
+			"id": "24149f96-99c8-417d-a942-9a83571bd617",
+			"name": "Del_usuário_comCarrinho❌",
+			"time": 6,
+			"responseCode": {
+				"code": 400,
+				"name": "Bad Request"
+			},
+			"tests": {
+				"Status do código é 400": true
+			},
+			"testPassFailCounts": {
+				"Status do código é 400": {
+					"pass": 10,
+					"fail": 0
+				}
+			},
+			"times": [
+				7,
+				7,
+				6,
+				7,
+				7,
+				7,
+				11,
+				5,
+				7,
+				6
+			],
+			"allTests": [
+				{
+					"Status do código é 400": true
+				},
+				{
+					"Status do código é 400": true
+				},
+				{
+					"Status do código é 400": true
+				},
+				{
+					"Status do código é 400": true
+				},
+				{
+					"Status do código é 400": true
+				},
+				{
+					"Status do código é 400": true
+				},
+				{
+					"Status do código é 400": true
+				},
+				{
+					"Status do código é 400": true
+				},
+				{
+					"Status do código é 400": true
+				},
+				{
+					"Status do código é 400": true
+				}
+			]
+		},
+		{
+			"id": "953158aa-ed27-4f71-ad51-13f28a463b2b",
+			"name": "Buscar_usu_sem_cadastro❌",
+			"time": 6,
+			"responseCode": {
+				"code": 400,
+				"name": "Bad Request"
+			},
+			"tests": {
+				"Status do código é 400": true,
+				"Mensagem  está  correta": true
+			},
+			"testPassFailCounts": {
+				"Status do código é 400": {
+					"pass": 10,
+					"fail": 0
+				},
+				"Mensagem  está  correta": {
+					"pass": 10,
+					"fail": 0
+				}
+			},
+			"times": [
+				25,
+				6,
+				7,
+				7,
+				7,
+				7,
+				8,
+				7,
+				8,
+				6
+			],
+			"allTests": [
+				{
+					"Status do código é 400": true,
+					"Mensagem  está  correta": true
+				},
+				{
+					"Status do código é 400": true,
+					"Mensagem  está  correta": true
+				},
+				{
+					"Status do código é 400": true,
+					"Mensagem  está  correta": true
+				},
+				{
+					"Status do código é 400": true,
+					"Mensagem  está  correta": true
+				},
+				{
+					"Status do código é 400": true,
+					"Mensagem  está  correta": true
+				},
+				{
+					"Status do código é 400": true,
+					"Mensagem  está  correta": true
+				},
+				{
+					"Status do código é 400": true,
+					"Mensagem  está  correta": true
+				},
+				{
+					"Status do código é 400": true,
+					"Mensagem  está  correta": true
+				},
+				{
+					"Status do código é 400": true,
+					"Mensagem  está  correta": true
+				},
+				{
+					"Status do código é 400": true,
+					"Mensagem  está  correta": true
+				}
+			]
+		},
+		{
+			"id": "3c9ccde6-fd7e-49e4-9277-413898538606",
+			"name": "Editar_usuario_semInfo❌",
+			"time": 5,
+			"responseCode": {
+				"code": 400,
+				"name": "Bad Request"
+			},
+			"tests": {
+				"Status do código é 400": true
+			},
+			"testPassFailCounts": {
+				"Status do código é 400": {
+					"pass": 10,
+					"fail": 0
+				}
+			},
+			"times": [
+				11,
+				7,
+				7,
+				7,
+				6,
+				7,
+				7,
+				5,
+				7,
+				5
+			],
+			"allTests": [
+				{
+					"Status do código é 400": true
+				},
+				{
+					"Status do código é 400": true
+				},
+				{
+					"Status do código é 400": true
+				},
+				{
+					"Status do código é 400": true
+				},
+				{
+					"Status do código é 400": true
+				},
+				{
+					"Status do código é 400": true
+				},
+				{
+					"Status do código é 400": true
+				},
+				{
+					"Status do código é 400": true
+				},
+				{
+					"Status do código é 400": true
+				},
+				{
+					"Status do código é 400": true
+				}
+			]
+		},
+		{
+			"id": "2b404684-ccaf-42b3-94e1-8e215960e2b8",
+			"name": "Edit.usuario.com.emailcad❌",
+			"time": 8,
+			"responseCode": {
+				"code": 400,
+				"name": "Bad Request"
+			},
+			"tests": {
+				"Status do código é 400": true
+			},
+			"testPassFailCounts": {
+				"Status do código é 400": {
+					"pass": 10,
+					"fail": 0
+				}
+			},
+			"times": [
+				8,
+				8,
+				7,
+				9,
+				8,
+				7,
+				7,
+				5,
+				10,
+				8
+			],
+			"allTests": [
+				{
+					"Status do código é 400": true
+				},
+				{
+					"Status do código é 400": true
+				},
+				{
+					"Status do código é 400": true
+				},
+				{
+					"Status do código é 400": true
+				},
+				{
+					"Status do código é 400": true
+				},
+				{
+					"Status do código é 400": true
+				},
+				{
+					"Status do código é 400": true
+				},
+				{
+					"Status do código é 400": true
+				},
+				{
+					"Status do código é 400": true
+				},
+				{
+					"Status do código é 400": true
+				}
+			]
+		},
+		{
+			"id": "423cde1d-4eb4-43f9-99db-17f52efc866b",
+			"name": "Add_usuarios_semNome❌",
+			"time": 5,
+			"responseCode": {
+				"code": 400,
+				"name": "Bad Request"
+			},
+			"tests": {
+				"Status do código é 201": true,
+				"Mensagem  está  correta": true
+			},
+			"testPassFailCounts": {
+				"Status do código é 201": {
+					"pass": 10,
+					"fail": 0
+				},
+				"Mensagem  está  correta": {
+					"pass": 10,
+					"fail": 0
+				}
+			},
+			"times": [
+				8,
+				7,
+				7,
+				7,
+				7,
+				7,
+				5,
+				5,
+				8,
+				5
+			],
+			"allTests": [
+				{
+					"Status do código é 201": true,
+					"Mensagem  está  correta": true
+				},
+				{
+					"Status do código é 201": true,
+					"Mensagem  está  correta": true
+				},
+				{
+					"Status do código é 201": true,
+					"Mensagem  está  correta": true
+				},
+				{
+					"Status do código é 201": true,
+					"Mensagem  está  correta": true
+				},
+				{
+					"Status do código é 201": true,
+					"Mensagem  está  correta": true
+				},
+				{
+					"Status do código é 201": true,
+					"Mensagem  está  correta": true
+				},
+				{
+					"Status do código é 201": true,
+					"Mensagem  está  correta": true
+				},
+				{
+					"Status do código é 201": true,
+					"Mensagem  está  correta": true
+				},
+				{
+					"Status do código é 201": true,
+					"Mensagem  está  correta": true
+				},
+				{
+					"Status do código é 201": true,
+					"Mensagem  está  correta": true
+				}
+			]
+		},
+		{
+			"id": "e0b9610f-ad27-431b-9d64-0333f9b8f3cb",
+			"name": "Add_usuarios_semEmail❌",
+			"time": 5,
+			"responseCode": {
+				"code": 400,
+				"name": "Bad Request"
+			},
+			"tests": {
+				"Status do código é 400": true,
+				"Mensagem  está  correta": true
+			},
+			"testPassFailCounts": {
+				"Status do código é 400": {
+					"pass": 10,
+					"fail": 0
+				},
+				"Mensagem  está  correta": {
+					"pass": 10,
+					"fail": 0
+				}
+			},
+			"times": [
+				8,
+				25,
+				11,
+				8,
+				6,
+				6,
+				15,
+				5,
+				6,
+				5
+			],
+			"allTests": [
+				{
+					"Status do código é 400": true,
+					"Mensagem  está  correta": true
+				},
+				{
+					"Status do código é 400": true,
+					"Mensagem  está  correta": true
+				},
+				{
+					"Status do código é 400": true,
+					"Mensagem  está  correta": true
+				},
+				{
+					"Status do código é 400": true,
+					"Mensagem  está  correta": true
+				},
+				{
+					"Status do código é 400": true,
+					"Mensagem  está  correta": true
+				},
+				{
+					"Status do código é 400": true,
+					"Mensagem  está  correta": true
+				},
+				{
+					"Status do código é 400": true,
+					"Mensagem  está  correta": true
+				},
+				{
+					"Status do código é 400": true,
+					"Mensagem  está  correta": true
+				},
+				{
+					"Status do código é 400": true,
+					"Mensagem  está  correta": true
+				},
+				{
+					"Status do código é 400": true,
+					"Mensagem  está  correta": true
+				}
+			]
+		},
+		{
+			"id": "73c17565-cedc-4c42-bd5b-425d0a9e03e1",
+			"name": "Add_usuarios_erroEmail❌",
+			"time": 7,
+			"responseCode": {
+				"code": 400,
+				"name": "Bad Request"
+			},
+			"tests": {
+				"Status do código é 201": true,
+				"Mensagem  está  correta": true
+			},
+			"testPassFailCounts": {
+				"Status do código é 201": {
+					"pass": 10,
+					"fail": 0
+				},
+				"Mensagem  está  correta": {
+					"pass": 10,
+					"fail": 0
+				}
+			},
+			"times": [
+				7,
+				8,
+				7,
+				21,
+				7,
+				7,
+				8,
+				5,
+				7,
+				7
+			],
+			"allTests": [
+				{
+					"Status do código é 201": true,
+					"Mensagem  está  correta": true
+				},
+				{
+					"Status do código é 201": true,
+					"Mensagem  está  correta": true
+				},
+				{
+					"Status do código é 201": true,
+					"Mensagem  está  correta": true
+				},
+				{
+					"Status do código é 201": true,
+					"Mensagem  está  correta": true
+				},
+				{
+					"Status do código é 201": true,
+					"Mensagem  está  correta": true
+				},
+				{
+					"Status do código é 201": true,
+					"Mensagem  está  correta": true
+				},
+				{
+					"Status do código é 201": true,
+					"Mensagem  está  correta": true
+				},
+				{
+					"Status do código é 201": true,
+					"Mensagem  está  correta": true
+				},
+				{
+					"Status do código é 201": true,
+					"Mensagem  está  correta": true
+				},
+				{
+					"Status do código é 201": true,
+					"Mensagem  está  correta": true
+				}
+			]
+		},
+		{
+			"id": "abe5cc75-3729-4226-a464-54c7b4437c9b",
+			"name": "Add_usuarios_semSenha❌",
+			"time": 6,
+			"responseCode": {
+				"code": 400,
+				"name": "Bad Request"
+			},
+			"tests": {
+				"Status do código é 201": true,
+				"Mensagem  está  correta": true
+			},
+			"testPassFailCounts": {
+				"Status do código é 201": {
+					"pass": 10,
+					"fail": 0
+				},
+				"Mensagem  está  correta": {
+					"pass": 10,
+					"fail": 0
+				}
+			},
+			"times": [
+				10,
+				8,
+				6,
+				6,
+				7,
+				7,
+				8,
+				21,
+				9,
+				6
+			],
+			"allTests": [
+				{
+					"Status do código é 201": true,
+					"Mensagem  está  correta": true
+				},
+				{
+					"Status do código é 201": true,
+					"Mensagem  está  correta": true
+				},
+				{
+					"Status do código é 201": true,
+					"Mensagem  está  correta": true
+				},
+				{
+					"Status do código é 201": true,
+					"Mensagem  está  correta": true
+				},
+				{
+					"Status do código é 201": true,
+					"Mensagem  está  correta": true
+				},
+				{
+					"Status do código é 201": true,
+					"Mensagem  está  correta": true
+				},
+				{
+					"Status do código é 201": true,
+					"Mensagem  está  correta": true
+				},
+				{
+					"Status do código é 201": true,
+					"Mensagem  está  correta": true
+				},
+				{
+					"Status do código é 201": true,
+					"Mensagem  está  correta": true
+				},
+				{
+					"Status do código é 201": true,
+					"Mensagem  está  correta": true
+				}
+			]
+		},
+		{
+			"id": "d3b8c2c1-bc27-4801-ac25-58c3a51fc44e",
+			"name": "Add_usuarios_sem_adm❌",
+			"time": 7,
+			"responseCode": {
+				"code": 400,
+				"name": "Bad Request"
+			},
+			"tests": {
+				"Status do código é 400": true,
+				"Mensagem  está  correta": true
+			},
+			"testPassFailCounts": {
+				"Status do código é 400": {
+					"pass": 10,
+					"fail": 0
+				},
+				"Mensagem  está  correta": {
+					"pass": 10,
+					"fail": 0
+				}
+			},
+			"times": [
+				8,
+				7,
+				6,
+				6,
+				7,
+				8,
+				6,
+				8,
+				6,
+				7
+			],
+			"allTests": [
+				{
+					"Status do código é 400": true,
+					"Mensagem  está  correta": true
+				},
+				{
+					"Status do código é 400": true,
+					"Mensagem  está  correta": true
+				},
+				{
+					"Status do código é 400": true,
+					"Mensagem  está  correta": true
+				},
+				{
+					"Status do código é 400": true,
+					"Mensagem  está  correta": true
+				},
+				{
+					"Status do código é 400": true,
+					"Mensagem  está  correta": true
+				},
+				{
+					"Status do código é 400": true,
+					"Mensagem  está  correta": true
+				},
+				{
+					"Status do código é 400": true,
+					"Mensagem  está  correta": true
+				},
+				{
+					"Status do código é 400": true,
+					"Mensagem  está  correta": true
+				},
+				{
+					"Status do código é 400": true,
+					"Mensagem  está  correta": true
+				},
+				{
+					"Status do código é 400": true,
+					"Mensagem  está  correta": true
+				}
+			]
+		},
+		{
+			"id": "45e65c65-267e-484e-b85f-737704b2e9a2",
+			"name": "Add_usuarios_admInvalido❌",
+			"time": 6,
+			"responseCode": {
+				"code": 400,
+				"name": "Bad Request"
+			},
+			"tests": {
+				"Status do código é 400": true,
+				"Mensagem  está  correta": true
+			},
+			"testPassFailCounts": {
+				"Status do código é 400": {
+					"pass": 10,
+					"fail": 0
+				},
+				"Mensagem  está  correta": {
+					"pass": 10,
+					"fail": 0
+				}
+			},
+			"times": [
+				7,
+				8,
+				7,
+				9,
+				7,
+				5,
+				6,
+				7,
+				6,
+				6
+			],
+			"allTests": [
+				{
+					"Status do código é 400": true,
+					"Mensagem  está  correta": true
+				},
+				{
+					"Status do código é 400": true,
+					"Mensagem  está  correta": true
+				},
+				{
+					"Status do código é 400": true,
+					"Mensagem  está  correta": true
+				},
+				{
+					"Status do código é 400": true,
+					"Mensagem  está  correta": true
+				},
+				{
+					"Status do código é 400": true,
+					"Mensagem  está  correta": true
+				},
+				{
+					"Status do código é 400": true,
+					"Mensagem  está  correta": true
+				},
+				{
+					"Status do código é 400": true,
+					"Mensagem  está  correta": true
+				},
+				{
+					"Status do código é 400": true,
+					"Mensagem  está  correta": true
+				},
+				{
+					"Status do código é 400": true,
+					"Mensagem  está  correta": true
+				},
+				{
+					"Status do código é 400": true,
+					"Mensagem  está  correta": true
+				}
+			]
+		},
+		{
+			"id": "1158afdf-c463-43bc-b644-d6b50d4029ac",
+			"name": "Listar_produtos✔️",
+			"time": 8,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status do código é 200": true
+			},
+			"testPassFailCounts": {
+				"Status do código é 200": {
+					"pass": 10,
+					"fail": 0
+				}
+			},
+			"times": [
+				10,
+				9,
+				9,
+				9,
+				8,
+				8,
+				8,
+				8,
+				8,
+				8
+			],
+			"allTests": [
+				{
+					"Status do código é 200": true
+				},
+				{
+					"Status do código é 200": true
+				},
+				{
+					"Status do código é 200": true
+				},
+				{
+					"Status do código é 200": true
+				},
+				{
+					"Status do código é 200": true
+				},
+				{
+					"Status do código é 200": true
+				},
+				{
+					"Status do código é 200": true
+				},
+				{
+					"Status do código é 200": true
+				},
+				{
+					"Status do código é 200": true
+				},
+				{
+					"Status do código é 200": true
+				}
+			]
+		},
+		{
+			"id": "3ba6f206-38cf-4ab3-9f9c-04950e2a330d",
+			"name": "Buscar_produtos✔️",
+			"time": 6,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status do código é 200": true
+			},
+			"testPassFailCounts": {
+				"Status do código é 200": {
+					"pass": 10,
+					"fail": 0
+				}
+			},
+			"times": [
+				8,
+				8,
+				7,
+				7,
+				19,
+				11,
+				25,
+				7,
+				12,
+				6
+			],
+			"allTests": [
+				{
+					"Status do código é 200": true
+				},
+				{
+					"Status do código é 200": true
+				},
+				{
+					"Status do código é 200": true
+				},
+				{
+					"Status do código é 200": true
+				},
+				{
+					"Status do código é 200": true
+				},
+				{
+					"Status do código é 200": true
+				},
+				{
+					"Status do código é 200": true
+				},
+				{
+					"Status do código é 200": true
+				},
+				{
+					"Status do código é 200": true
+				},
+				{
+					"Status do código é 200": true
+				}
+			]
+		},
+		{
+			"id": "7e3b011e-9b15-40ab-9367-3e014d5f044e",
+			"name": "Add_Produtos_ADM✔️",
+			"time": 7,
+			"responseCode": {
+				"code": 201,
+				"name": "Created"
+			},
+			"tests": {
+				"Status do código é 201": true,
+				"Mensagem  está  correta": true
+			},
+			"testPassFailCounts": {
+				"Status do código é 201": {
+					"pass": 10,
+					"fail": 0
+				},
+				"Mensagem  está  correta": {
+					"pass": 10,
+					"fail": 0
+				}
+			},
+			"times": [
+				14,
+				12,
+				13,
+				13,
+				13,
+				11,
+				13,
+				11,
+				10,
+				7
+			],
+			"allTests": [
+				{
+					"Status do código é 201": true,
+					"Mensagem  está  correta": true
+				},
+				{
+					"Status do código é 201": true,
+					"Mensagem  está  correta": true
+				},
+				{
+					"Status do código é 201": true,
+					"Mensagem  está  correta": true
+				},
+				{
+					"Status do código é 201": true,
+					"Mensagem  está  correta": true
+				},
+				{
+					"Status do código é 201": true,
+					"Mensagem  está  correta": true
+				},
+				{
+					"Status do código é 201": true,
+					"Mensagem  está  correta": true
+				},
+				{
+					"Status do código é 201": true,
+					"Mensagem  está  correta": true
+				},
+				{
+					"Status do código é 201": true,
+					"Mensagem  está  correta": true
+				},
+				{
+					"Status do código é 201": true,
+					"Mensagem  está  correta": true
+				},
+				{
+					"Status do código é 201": true,
+					"Mensagem  está  correta": true
+				}
+			]
+		},
+		{
+			"id": "209c5dbe-df75-40d4-a1ad-543805e25940",
+			"name": "Del_Produtos_ADM✔️",
+			"time": 11,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status do código é 200": true
+			},
+			"testPassFailCounts": {
+				"Status do código é 200": {
+					"pass": 10,
+					"fail": 0
+				}
+			},
+			"times": [
+				12,
+				12,
+				15,
+				13,
+				11,
+				18,
+				10,
+				9,
+				15,
+				11
+			],
+			"allTests": [
+				{
+					"Status do código é 200": true
+				},
+				{
+					"Status do código é 200": true
+				},
+				{
+					"Status do código é 200": true
+				},
+				{
+					"Status do código é 200": true
+				},
+				{
+					"Status do código é 200": true
+				},
+				{
+					"Status do código é 200": true
+				},
+				{
+					"Status do código é 200": true
+				},
+				{
+					"Status do código é 200": true
+				},
+				{
+					"Status do código é 200": true
+				},
+				{
+					"Status do código é 200": true
+				}
+			]
+		},
+		{
+			"id": "80eb0970-61b9-48b9-9d3b-47ab798d5213",
+			"name": "Editar_produtos_ADM✔️",
+			"time": 9,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status do código é 200": true
+			},
+			"testPassFailCounts": {
+				"Status do código é 200": {
+					"pass": 10,
+					"fail": 0
+				}
+			},
+			"times": [
+				13,
+				10,
+				10,
+				14,
+				11,
+				9,
+				9,
+				12,
+				11,
+				9
+			],
+			"allTests": [
+				{
+					"Status do código é 200": true
+				},
+				{
+					"Status do código é 200": true
+				},
+				{
+					"Status do código é 200": true
+				},
+				{
+					"Status do código é 200": true
+				},
+				{
+					"Status do código é 200": true
+				},
+				{
+					"Status do código é 200": true
+				},
+				{
+					"Status do código é 200": true
+				},
+				{
+					"Status do código é 200": true
+				},
+				{
+					"Status do código é 200": true
+				},
+				{
+					"Status do código é 200": true
+				}
+			]
+		},
+		{
+			"id": "b0cf7e90-cb13-42b9-acab-a6f3d22dc213",
+			"name": "Buscar_produtos_sem_id❌",
+			"time": 6,
+			"responseCode": {
+				"code": 400,
+				"name": "Bad Request"
+			},
+			"tests": {
+				"Status do código é 400": true
+			},
+			"testPassFailCounts": {
+				"Status do código é 400": {
+					"pass": 10,
+					"fail": 0
+				}
+			},
+			"times": [
+				7,
+				7,
+				7,
+				6,
+				6,
+				13,
+				5,
+				9,
+				8,
+				6
+			],
+			"allTests": [
+				{
+					"Status do código é 400": true
+				},
+				{
+					"Status do código é 400": true
+				},
+				{
+					"Status do código é 400": true
+				},
+				{
+					"Status do código é 400": true
+				},
+				{
+					"Status do código é 400": true
+				},
+				{
+					"Status do código é 400": true
+				},
+				{
+					"Status do código é 400": true
+				},
+				{
+					"Status do código é 400": true
+				},
+				{
+					"Status do código é 400": true
+				},
+				{
+					"Status do código é 400": true
+				}
+			]
+		},
+		{
+			"id": "aed71a69-cbb9-4a39-9f91-cf62678c6703",
+			"name": "Cad_prod_Token.Invalid❌",
+			"time": 6,
+			"responseCode": {
+				"code": 401,
+				"name": "Unauthorized"
+			},
+			"tests": {
+				"Status code é 401": true,
+				"Status code name has string": true,
+				"Response time is less than 200ms": true,
+				"resposta deve ser válida e ter um corpo": true,
+				"O body Corresponde a string": true
+			},
+			"testPassFailCounts": {
+				"Status code é 401": {
+					"pass": 10,
+					"fail": 0
+				},
+				"Status code name has string": {
+					"pass": 10,
+					"fail": 0
+				},
+				"Response time is less than 200ms": {
+					"pass": 10,
+					"fail": 0
+				},
+				"resposta deve ser válida e ter um corpo": {
+					"pass": 10,
+					"fail": 0
+				},
+				"O body Corresponde a string": {
+					"pass": 10,
+					"fail": 0
+				}
+			},
+			"times": [
+				7,
+				6,
+				6,
+				12,
+				6,
+				5,
+				5,
+				11,
+				6,
+				6
+			],
+			"allTests": [
+				{
+					"Status code é 401": true,
+					"Status code name has string": true,
+					"Response time is less than 200ms": true,
+					"resposta deve ser válida e ter um corpo": true,
+					"O body Corresponde a string": true
+				},
+				{
+					"Status code é 401": true,
+					"Status code name has string": true,
+					"Response time is less than 200ms": true,
+					"resposta deve ser válida e ter um corpo": true,
+					"O body Corresponde a string": true
+				},
+				{
+					"Status code é 401": true,
+					"Status code name has string": true,
+					"Response time is less than 200ms": true,
+					"resposta deve ser válida e ter um corpo": true,
+					"O body Corresponde a string": true
+				},
+				{
+					"Status code é 401": true,
+					"Status code name has string": true,
+					"Response time is less than 200ms": true,
+					"resposta deve ser válida e ter um corpo": true,
+					"O body Corresponde a string": true
+				},
+				{
+					"Status code é 401": true,
+					"Status code name has string": true,
+					"Response time is less than 200ms": true,
+					"resposta deve ser válida e ter um corpo": true,
+					"O body Corresponde a string": true
+				},
+				{
+					"Status code é 401": true,
+					"Status code name has string": true,
+					"Response time is less than 200ms": true,
+					"resposta deve ser válida e ter um corpo": true,
+					"O body Corresponde a string": true
+				},
+				{
+					"Status code é 401": true,
+					"Status code name has string": true,
+					"Response time is less than 200ms": true,
+					"resposta deve ser válida e ter um corpo": true,
+					"O body Corresponde a string": true
+				},
+				{
+					"Status code é 401": true,
+					"Status code name has string": true,
+					"Response time is less than 200ms": true,
+					"resposta deve ser válida e ter um corpo": true,
+					"O body Corresponde a string": true
+				},
+				{
+					"Status code é 401": true,
+					"Status code name has string": true,
+					"Response time is less than 200ms": true,
+					"resposta deve ser válida e ter um corpo": true,
+					"O body Corresponde a string": true
+				},
+				{
+					"Status code é 401": true,
+					"Status code name has string": true,
+					"Response time is less than 200ms": true,
+					"resposta deve ser válida e ter um corpo": true,
+					"O body Corresponde a string": true
+				}
+			]
+		},
+		{
+			"id": "af143b9b-4d71-4641-b1bf-40f56863ddbc",
+			"name": "Add.Produtos.cadastrado❌",
+			"time": 9,
+			"responseCode": {
+				"code": 400,
+				"name": "Bad Request"
+			},
+			"tests": {
+				"Status do código é 400": true,
+				"Mensagem  está  correta": true
+			},
+			"testPassFailCounts": {
+				"Status do código é 400": {
+					"pass": 10,
+					"fail": 0
+				},
+				"Mensagem  está  correta": {
+					"pass": 10,
+					"fail": 0
+				}
+			},
+			"times": [
+				11,
+				11,
+				15,
+				9,
+				9,
+				8,
+				9,
+				6,
+				10,
+				9
+			],
+			"allTests": [
+				{
+					"Status do código é 400": true,
+					"Mensagem  está  correta": true
+				},
+				{
+					"Status do código é 400": true,
+					"Mensagem  está  correta": true
+				},
+				{
+					"Status do código é 400": true,
+					"Mensagem  está  correta": true
+				},
+				{
+					"Status do código é 400": true,
+					"Mensagem  está  correta": true
+				},
+				{
+					"Status do código é 400": true,
+					"Mensagem  está  correta": true
+				},
+				{
+					"Status do código é 400": true,
+					"Mensagem  está  correta": true
+				},
+				{
+					"Status do código é 400": true,
+					"Mensagem  está  correta": true
+				},
+				{
+					"Status do código é 400": true,
+					"Mensagem  está  correta": true
+				},
+				{
+					"Status do código é 400": true,
+					"Mensagem  está  correta": true
+				},
+				{
+					"Status do código é 400": true,
+					"Mensagem  está  correta": true
+				}
+			]
+		},
+		{
+			"id": "4cd8c3f5-8068-4d8d-be78-90f087f8dbd9",
+			"name": "Add_Prod_Usua_comum❌",
+			"time": 8,
+			"responseCode": {
+				"code": 403,
+				"name": "Forbidden"
+			},
+			"tests": {
+				"Status do código é 403": true,
+				"Mensagem  está  correta": true
+			},
+			"testPassFailCounts": {
+				"Status do código é 403": {
+					"pass": 10,
+					"fail": 0
+				},
+				"Mensagem  está  correta": {
+					"pass": 10,
+					"fail": 0
+				}
+			},
+			"times": [
+				11,
+				11,
+				8,
+				11,
+				8,
+				7,
+				9,
+				9,
+				12,
+				8
+			],
+			"allTests": [
+				{
+					"Status do código é 403": true,
+					"Mensagem  está  correta": true
+				},
+				{
+					"Status do código é 403": true,
+					"Mensagem  está  correta": true
+				},
+				{
+					"Status do código é 403": true,
+					"Mensagem  está  correta": true
+				},
+				{
+					"Status do código é 403": true,
+					"Mensagem  está  correta": true
+				},
+				{
+					"Status do código é 403": true,
+					"Mensagem  está  correta": true
+				},
+				{
+					"Status do código é 403": true,
+					"Mensagem  está  correta": true
+				},
+				{
+					"Status do código é 403": true,
+					"Mensagem  está  correta": true
+				},
+				{
+					"Status do código é 403": true,
+					"Mensagem  está  correta": true
+				},
+				{
+					"Status do código é 403": true,
+					"Mensagem  está  correta": true
+				},
+				{
+					"Status do código é 403": true,
+					"Mensagem  está  correta": true
+				}
+			]
+		},
+		{
+			"id": "91b7cf8e-06bc-42a2-b149-ad8c30f38fef",
+			"name": "Del_Prod_Usua_comum❌",
+			"time": 6,
+			"responseCode": {
+				"code": 403,
+				"name": "Forbidden"
+			},
+			"tests": {
+				"Status do código é 403": true
+			},
+			"testPassFailCounts": {
+				"Status do código é 403": {
+					"pass": 10,
+					"fail": 0
+				}
+			},
+			"times": [
+				9,
+				11,
+				9,
+				53,
+				8,
+				8,
+				7,
+				8,
+				8,
+				6
+			],
+			"allTests": [
+				{
+					"Status do código é 403": true
+				},
+				{
+					"Status do código é 403": true
+				},
+				{
+					"Status do código é 403": true
+				},
+				{
+					"Status do código é 403": true
+				},
+				{
+					"Status do código é 403": true
+				},
+				{
+					"Status do código é 403": true
+				},
+				{
+					"Status do código é 403": true
+				},
+				{
+					"Status do código é 403": true
+				},
+				{
+					"Status do código é 403": true
+				},
+				{
+					"Status do código é 403": true
+				}
+			]
+		},
+		{
+			"id": "d113ec09-1f84-4c75-a89a-21439bfca082",
+			"name": "Del_Prod_no_carrinho❌",
+			"time": 8,
+			"responseCode": {
+				"code": 400,
+				"name": "Bad Request"
+			},
+			"tests": {
+				"Status do código é 400": true,
+				"Status do código é Bad Request": true
+			},
+			"testPassFailCounts": {
+				"Status do código é 400": {
+					"pass": 10,
+					"fail": 0
+				},
+				"Status do código é Bad Request": {
+					"pass": 10,
+					"fail": 0
+				}
+			},
+			"times": [
+				9,
+				17,
+				9,
+				10,
+				12,
+				9,
+				7,
+				13,
+				15,
+				8
+			],
+			"allTests": [
+				{
+					"Status do código é 400": true,
+					"Status do código é Bad Request": true
+				},
+				{
+					"Status do código é 400": true,
+					"Status do código é Bad Request": true
+				},
+				{
+					"Status do código é 400": true,
+					"Status do código é Bad Request": true
+				},
+				{
+					"Status do código é 400": true,
+					"Status do código é Bad Request": true
+				},
+				{
+					"Status do código é 400": true,
+					"Status do código é Bad Request": true
+				},
+				{
+					"Status do código é 400": true,
+					"Status do código é Bad Request": true
+				},
+				{
+					"Status do código é 400": true,
+					"Status do código é Bad Request": true
+				},
+				{
+					"Status do código é 400": true,
+					"Status do código é Bad Request": true
+				},
+				{
+					"Status do código é 400": true,
+					"Status do código é Bad Request": true
+				},
+				{
+					"Status do código é 400": true,
+					"Status do código é Bad Request": true
+				}
+			]
+		},
+		{
+			"id": "115a7ebb-6fdf-4635-b8bc-6e54683ffa6c",
+			"name": "Editar_produtos_Comum❌",
+			"time": 18,
+			"responseCode": {
+				"code": 403,
+				"name": "Forbidden"
+			},
+			"tests": {
+				"Status do código é 403": true
+			},
+			"testPassFailCounts": {
+				"Status do código é 403": {
+					"pass": 10,
+					"fail": 0
+				}
+			},
+			"times": [
+				9,
+				9,
+				13,
+				9,
+				10,
+				8,
+				21,
+				9,
+				10,
+				18
+			],
+			"allTests": [
+				{
+					"Status do código é 403": true
+				},
+				{
+					"Status do código é 403": true
+				},
+				{
+					"Status do código é 403": true
+				},
+				{
+					"Status do código é 403": true
+				},
+				{
+					"Status do código é 403": true
+				},
+				{
+					"Status do código é 403": true
+				},
+				{
+					"Status do código é 403": true
+				},
+				{
+					"Status do código é 403": true
+				},
+				{
+					"Status do código é 403": true
+				},
+				{
+					"Status do código é 403": true
+				}
+			]
+		},
+		{
+			"id": "7af6ef27-84ff-4d86-b505-3f08ef7ace64",
+			"name": "Editar_prod_jáExiste❌",
+			"time": 10,
+			"responseCode": {
+				"code": 400,
+				"name": "Bad Request"
+			},
+			"tests": {
+				"Status do código é 400": true,
+				"Status do código é Bad Request": true
+			},
+			"testPassFailCounts": {
+				"Status do código é 400": {
+					"pass": 10,
+					"fail": 0
+				},
+				"Status do código é Bad Request": {
+					"pass": 10,
+					"fail": 0
+				}
+			},
+			"times": [
+				10,
+				16,
+				9,
+				11,
+				11,
+				9,
+				8,
+				9,
+				10,
+				10
+			],
+			"allTests": [
+				{
+					"Status do código é 400": true,
+					"Status do código é Bad Request": true
+				},
+				{
+					"Status do código é 400": true,
+					"Status do código é Bad Request": true
+				},
+				{
+					"Status do código é 400": true,
+					"Status do código é Bad Request": true
+				},
+				{
+					"Status do código é 400": true,
+					"Status do código é Bad Request": true
+				},
+				{
+					"Status do código é 400": true,
+					"Status do código é Bad Request": true
+				},
+				{
+					"Status do código é 400": true,
+					"Status do código é Bad Request": true
+				},
+				{
+					"Status do código é 400": true,
+					"Status do código é Bad Request": true
+				},
+				{
+					"Status do código é 400": true,
+					"Status do código é Bad Request": true
+				},
+				{
+					"Status do código é 400": true,
+					"Status do código é Bad Request": true
+				},
+				{
+					"Status do código é 400": true,
+					"Status do código é Bad Request": true
+				}
+			]
+		},
+		{
+			"id": "9b67f5c6-7f63-48ce-bbdb-aeed4a7e080a",
+			"name": "Listar_carrinho✔️",
+			"time": 8,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status do código é 200": true
+			},
+			"testPassFailCounts": {
+				"Status do código é 200": {
+					"pass": 10,
+					"fail": 0
+				}
+			},
+			"times": [
+				8,
+				8,
+				8,
+				13,
+				9,
+				9,
+				8,
+				8,
+				7,
+				8
+			],
+			"allTests": [
+				{
+					"Status do código é 200": true
+				},
+				{
+					"Status do código é 200": true
+				},
+				{
+					"Status do código é 200": true
+				},
+				{
+					"Status do código é 200": true
+				},
+				{
+					"Status do código é 200": true
+				},
+				{
+					"Status do código é 200": true
+				},
+				{
+					"Status do código é 200": true
+				},
+				{
+					"Status do código é 200": true
+				},
+				{
+					"Status do código é 200": true
+				},
+				{
+					"Status do código é 200": true
+				}
+			]
+		},
+		{
+			"id": "8caacb8b-a11e-4a48-acfc-eb11ecb9907f",
+			"name": "Cadastrar_carrinho✔️",
+			"time": 11,
+			"responseCode": {
+				"code": 201,
+				"name": "Created"
+			},
+			"tests": {
+				"Status code é 201": true,
+				"Status está escrito Created": true
+			},
+			"testPassFailCounts": {
+				"Status code é 201": {
+					"pass": 10,
+					"fail": 0
+				},
+				"Status está escrito Created": {
+					"pass": 10,
+					"fail": 0
+				}
+			},
+			"times": [
+				15,
+				13,
+				15,
+				85,
+				13,
+				11,
+				10,
+				12,
+				14,
+				11
+			],
+			"allTests": [
+				{
+					"Status code é 201": true,
+					"Status está escrito Created": true
+				},
+				{
+					"Status code é 201": true,
+					"Status está escrito Created": true
+				},
+				{
+					"Status code é 201": true,
+					"Status está escrito Created": true
+				},
+				{
+					"Status code é 201": true,
+					"Status está escrito Created": true
+				},
+				{
+					"Status code é 201": true,
+					"Status está escrito Created": true
+				},
+				{
+					"Status code é 201": true,
+					"Status está escrito Created": true
+				},
+				{
+					"Status code é 201": true,
+					"Status está escrito Created": true
+				},
+				{
+					"Status code é 201": true,
+					"Status está escrito Created": true
+				},
+				{
+					"Status code é 201": true,
+					"Status está escrito Created": true
+				},
+				{
+					"Status code é 201": true,
+					"Status está escrito Created": true
+				}
+			]
+		},
+		{
+			"id": "d5952423-64e6-4fc0-9677-d49d76490c56",
+			"name": "Buscar_carrinho✔️",
+			"time": 7,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status do código é 200": true
+			},
+			"testPassFailCounts": {
+				"Status do código é 200": {
+					"pass": 10,
+					"fail": 0
+				}
+			},
+			"times": [
+				7,
+				7,
+				7,
+				7,
+				6,
+				6,
+				7,
+				6,
+				8,
+				7
+			],
+			"allTests": [
+				{
+					"Status do código é 200": true
+				},
+				{
+					"Status do código é 200": true
+				},
+				{
+					"Status do código é 200": true
+				},
+				{
+					"Status do código é 200": true
+				},
+				{
+					"Status do código é 200": true
+				},
+				{
+					"Status do código é 200": true
+				},
+				{
+					"Status do código é 200": true
+				},
+				{
+					"Status do código é 200": true
+				},
+				{
+					"Status do código é 200": true
+				},
+				{
+					"Status do código é 200": true
+				}
+			]
+		},
+		{
+			"id": "36d0df5c-7d3d-4a1d-9a33-287dbca154ac",
+			"name": "Concluir _compra✔️",
+			"time": 9,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status do código é 200": true,
+				"Mensagem  está  correta": true,
+				"Status do código é OK": true
+			},
+			"testPassFailCounts": {
+				"Status do código é 200": {
+					"pass": 10,
+					"fail": 0
+				},
+				"Mensagem  está  correta": {
+					"pass": 10,
+					"fail": 0
+				},
+				"Status do código é OK": {
+					"pass": 10,
+					"fail": 0
+				}
+			},
+			"times": [
+				22,
+				10,
+				9,
+				10,
+				12,
+				12,
+				8,
+				10,
+				10,
+				9
+			],
+			"allTests": [
+				{
+					"Status do código é 200": true,
+					"Mensagem  está  correta": true,
+					"Status do código é OK": true
+				},
+				{
+					"Status do código é 200": true,
+					"Mensagem  está  correta": true,
+					"Status do código é OK": true
+				},
+				{
+					"Status do código é 200": true,
+					"Mensagem  está  correta": true,
+					"Status do código é OK": true
+				},
+				{
+					"Status do código é 200": true,
+					"Mensagem  está  correta": true,
+					"Status do código é OK": true
+				},
+				{
+					"Status do código é 200": true,
+					"Mensagem  está  correta": true,
+					"Status do código é OK": true
+				},
+				{
+					"Status do código é 200": true,
+					"Mensagem  está  correta": true,
+					"Status do código é OK": true
+				},
+				{
+					"Status do código é 200": true,
+					"Mensagem  está  correta": true,
+					"Status do código é OK": true
+				},
+				{
+					"Status do código é 200": true,
+					"Mensagem  está  correta": true,
+					"Status do código é OK": true
+				},
+				{
+					"Status do código é 200": true,
+					"Mensagem  está  correta": true,
+					"Status do código é OK": true
+				},
+				{
+					"Status do código é 200": true,
+					"Mensagem  está  correta": true,
+					"Status do código é OK": true
+				}
+			]
+		},
+		{
+			"id": "6fe6ac8a-a18f-4381-bde0-119bb68a6f40",
+			"name": "Cancelar_compra✔️",
+			"time": 10,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status do código é 200": true,
+				"Mensagem  está  correta": true
+			},
+			"testPassFailCounts": {
+				"Status do código é 200": {
+					"pass": 10,
+					"fail": 0
+				},
+				"Mensagem  está  correta": {
+					"pass": 10,
+					"fail": 0
+				}
+			},
+			"times": [
+				11,
+				10,
+				10,
+				12,
+				11,
+				8,
+				9,
+				9,
+				11,
+				10
+			],
+			"allTests": [
+				{
+					"Status do código é 200": true,
+					"Mensagem  está  correta": true
+				},
+				{
+					"Status do código é 200": true,
+					"Mensagem  está  correta": true
+				},
+				{
+					"Status do código é 200": true,
+					"Mensagem  está  correta": true
+				},
+				{
+					"Status do código é 200": true,
+					"Mensagem  está  correta": true
+				},
+				{
+					"Status do código é 200": true,
+					"Mensagem  está  correta": true
+				},
+				{
+					"Status do código é 200": true,
+					"Mensagem  está  correta": true
+				},
+				{
+					"Status do código é 200": true,
+					"Mensagem  está  correta": true
+				},
+				{
+					"Status do código é 200": true,
+					"Mensagem  está  correta": true
+				},
+				{
+					"Status do código é 200": true,
+					"Mensagem  está  correta": true
+				},
+				{
+					"Status do código é 200": true,
+					"Mensagem  está  correta": true
+				}
+			]
+		},
+		{
+			"id": "ac2d16da-4e91-4a86-96b3-50ff2baa557a",
+			"name": "Cad.carrinho.sem.Estoque❌",
+			"time": 8,
+			"responseCode": {
+				"code": 400,
+				"name": "Bad Request"
+			},
+			"tests": {
+				"Status code é 400": true,
+				"Status está escrito Bad Request": true
+			},
+			"testPassFailCounts": {
+				"Status code é 400": {
+					"pass": 10,
+					"fail": 0
+				},
+				"Status está escrito Bad Request": {
+					"pass": 10,
+					"fail": 0
+				}
+			},
+			"times": [
+				10,
+				9,
+				10,
+				10,
+				9,
+				9,
+				9,
+				9,
+				10,
+				8
+			],
+			"allTests": [
+				{
+					"Status code é 400": true,
+					"Status está escrito Bad Request": true
+				},
+				{
+					"Status code é 400": true,
+					"Status está escrito Bad Request": true
+				},
+				{
+					"Status code é 400": true,
+					"Status está escrito Bad Request": true
+				},
+				{
+					"Status code é 400": true,
+					"Status está escrito Bad Request": true
+				},
+				{
+					"Status code é 400": true,
+					"Status está escrito Bad Request": true
+				},
+				{
+					"Status code é 400": true,
+					"Status está escrito Bad Request": true
+				},
+				{
+					"Status code é 400": true,
+					"Status está escrito Bad Request": true
+				},
+				{
+					"Status code é 400": true,
+					"Status está escrito Bad Request": true
+				},
+				{
+					"Status code é 400": true,
+					"Status está escrito Bad Request": true
+				},
+				{
+					"Status code é 400": true,
+					"Status está escrito Bad Request": true
+				}
+			]
+		},
+		{
+			"id": "4e596647-80a3-49fb-8748-6360fc872ae4",
+			"name": "Cadastrar_+1carrinho❌",
+			"time": 6,
+			"responseCode": {
+				"code": 400,
+				"name": "Bad Request"
+			},
+			"tests": {
+				"Status do código é 400": true,
+				"Mensagem  está  correta": true
+			},
+			"testPassFailCounts": {
+				"Status do código é 400": {
+					"pass": 10,
+					"fail": 0
+				},
+				"Mensagem  está  correta": {
+					"pass": 10,
+					"fail": 0
+				}
+			},
+			"times": [
+				8,
+				10,
+				10,
+				12,
+				9,
+				9,
+				8,
+				9,
+				8,
+				6
+			],
+			"allTests": [
+				{
+					"Status do código é 400": true,
+					"Mensagem  está  correta": true
+				},
+				{
+					"Status do código é 400": true,
+					"Mensagem  está  correta": true
+				},
+				{
+					"Status do código é 400": true,
+					"Mensagem  está  correta": true
+				},
+				{
+					"Status do código é 400": true,
+					"Mensagem  está  correta": true
+				},
+				{
+					"Status do código é 400": true,
+					"Mensagem  está  correta": true
+				},
+				{
+					"Status do código é 400": true,
+					"Mensagem  está  correta": true
+				},
+				{
+					"Status do código é 400": true,
+					"Mensagem  está  correta": true
+				},
+				{
+					"Status do código é 400": true,
+					"Mensagem  está  correta": true
+				},
+				{
+					"Status do código é 400": true,
+					"Mensagem  está  correta": true
+				},
+				{
+					"Status do código é 400": true,
+					"Mensagem  está  correta": true
+				}
+			]
+		},
+		{
+			"id": "d0d9952e-8d9b-404f-b1c5-98abec1fe34d",
+			"name": "Cad.Carri.Prod.repetido❌",
+			"time": 9,
+			"responseCode": {
+				"code": 400,
+				"name": "Bad Request"
+			},
+			"tests": {
+				"Status do código é 400": true,
+				"Mensagem  está  correta": true
+			},
+			"testPassFailCounts": {
+				"Status do código é 400": {
+					"pass": 10,
+					"fail": 0
+				},
+				"Mensagem  está  correta": {
+					"pass": 10,
+					"fail": 0
+				}
+			},
+			"times": [
+				11,
+				9,
+				10,
+				13,
+				8,
+				11,
+				9,
+				15,
+				17,
+				9
+			],
+			"allTests": [
+				{
+					"Status do código é 400": true,
+					"Mensagem  está  correta": true
+				},
+				{
+					"Status do código é 400": true,
+					"Mensagem  está  correta": true
+				},
+				{
+					"Status do código é 400": true,
+					"Mensagem  está  correta": true
+				},
+				{
+					"Status do código é 400": true,
+					"Mensagem  está  correta": true
+				},
+				{
+					"Status do código é 400": true,
+					"Mensagem  está  correta": true
+				},
+				{
+					"Status do código é 400": true,
+					"Mensagem  está  correta": true
+				},
+				{
+					"Status do código é 400": true,
+					"Mensagem  está  correta": true
+				},
+				{
+					"Status do código é 400": true,
+					"Mensagem  está  correta": true
+				},
+				{
+					"Status do código é 400": true,
+					"Mensagem  está  correta": true
+				},
+				{
+					"Status do código é 400": true,
+					"Mensagem  está  correta": true
+				}
+			]
+		},
+		{
+			"id": "91142108-b120-4e9e-bc89-38969427463a",
+			"name": "Buscar_carrinho_sem_ID❌",
+			"time": 6,
+			"responseCode": {
+				"code": 400,
+				"name": "Bad Request"
+			},
+			"tests": {
+				"Status do código é 200": true,
+				"Status do código é Bad Request": true,
+				"Mensagem  está  correta": true
+			},
+			"testPassFailCounts": {
+				"Status do código é 200": {
+					"pass": 10,
+					"fail": 0
+				},
+				"Status do código é Bad Request": {
+					"pass": 10,
+					"fail": 0
+				},
+				"Mensagem  está  correta": {
+					"pass": 10,
+					"fail": 0
+				}
+			},
+			"times": [
+				8,
+				7,
+				8,
+				6,
+				6,
+				7,
+				6,
+				11,
+				6,
+				6
+			],
+			"allTests": [
+				{
+					"Status do código é 200": true,
+					"Status do código é Bad Request": true,
+					"Mensagem  está  correta": true
+				},
+				{
+					"Status do código é 200": true,
+					"Status do código é Bad Request": true,
+					"Mensagem  está  correta": true
+				},
+				{
+					"Status do código é 200": true,
+					"Status do código é Bad Request": true,
+					"Mensagem  está  correta": true
+				},
+				{
+					"Status do código é 200": true,
+					"Status do código é Bad Request": true,
+					"Mensagem  está  correta": true
+				},
+				{
+					"Status do código é 200": true,
+					"Status do código é Bad Request": true,
+					"Mensagem  está  correta": true
+				},
+				{
+					"Status do código é 200": true,
+					"Status do código é Bad Request": true,
+					"Mensagem  está  correta": true
+				},
+				{
+					"Status do código é 200": true,
+					"Status do código é Bad Request": true,
+					"Mensagem  está  correta": true
+				},
+				{
+					"Status do código é 200": true,
+					"Status do código é Bad Request": true,
+					"Mensagem  está  correta": true
+				},
+				{
+					"Status do código é 200": true,
+					"Status do código é Bad Request": true,
+					"Mensagem  está  correta": true
+				},
+				{
+					"Status do código é 200": true,
+					"Status do código é Bad Request": true,
+					"Mensagem  está  correta": true
+				}
+			]
+		}
+	],
+	"count": 10,
+	"totalTime": 5647,
+	"collection": {
+		"requests": [
+			{
+				"id": "25bdcaf8-50a6-4147-9bb3-7ec671931676",
+				"method": "POST"
+			},
+			{
+				"id": "e54957b1-eda7-4c6d-9e52-25676012336d",
+				"method": "POST"
+			},
+			{
+				"id": "4722caf8-0f9e-4b12-aeb2-5e1c3f3d4a8a",
+				"method": "POST"
+			},
+			{
+				"id": "55ca75ac-1e78-4b92-8d7b-3802cded3296",
+				"method": "POST"
+			},
+			{
+				"id": "72cf874b-15a5-4739-ba2c-412424ec77fa",
+				"method": "POST"
+			},
+			{
+				"id": "c9d918f8-2f85-44b2-a6f5-0d59df127613",
+				"method": "GET"
+			},
+			{
+				"id": "0e3d071f-ad9b-4a88-a200-9c68547bb3e0",
+				"method": "POST"
+			},
+			{
+				"id": "b2b0d30c-0725-4db6-b7ae-ff9845af1220",
+				"method": "DELETE"
+			},
+			{
+				"id": "7ddb3076-865d-47df-a174-e14f72ec3dbc",
+				"method": "POST"
+			},
+			{
+				"id": "9ba6ee84-c309-43e0-9d8d-9e85882cb52e",
+				"method": "POST"
+			},
+			{
+				"id": "d2039122-5859-4cae-a985-ab5f76374c5a",
+				"method": "GET"
+			},
+			{
+				"id": "c9e0e182-f5df-4a18-b371-8b52c693b6be",
+				"method": "POST"
+			},
+			{
+				"id": "113ee8f9-9baf-43f6-b4cc-af838afea6ca",
+				"method": "DELETE"
+			},
+			{
+				"id": "acd0d8df-547f-42a3-9ea5-00e3a8ae82c3",
+				"method": "POST"
+			},
+			{
+				"id": "309bd494-baf4-410c-9a87-8bc43fb441f5",
+				"method": "POST"
+			},
+			{
+				"id": "7a655cb9-4b96-4379-ba05-258809eb443b",
+				"method": "POST"
+			},
+			{
+				"id": "1d4543e5-5ad2-49d2-9341-b62afc0675cb",
+				"method": "POST"
+			},
+			{
+				"id": "efdccbc1-ec00-4ad5-83b7-ad36eb9df2c3",
+				"method": "POST"
+			},
+			{
+				"id": "0ec8cdb0-49d1-4ace-a2bf-717bcaccebd1",
+				"method": "GET"
+			},
+			{
+				"id": "e6f3e062-8276-4b91-a576-49c2c4ea62f0",
+				"method": "GET"
+			},
+			{
+				"id": "c44892af-7cf9-48d4-809a-dbf0b8f65d52",
+				"method": "DELETE"
+			},
+			{
+				"id": "37318d04-ec67-4f55-bd19-3fed95369cd4",
+				"method": "PUT"
+			},
+			{
+				"id": "844fc87d-2876-495f-affb-d74a6a272b06",
+				"method": "PUT"
+			},
+			{
+				"id": "7e51f0d6-fbaa-48ac-b9cc-69659d538fe2",
+				"method": "POST"
+			},
+			{
+				"id": "3f9575fe-cdc2-4751-b68d-292b2fdf71f4",
+				"method": "POST"
+			},
+			{
+				"id": "24149f96-99c8-417d-a942-9a83571bd617",
+				"method": "DELETE"
+			},
+			{
+				"id": "953158aa-ed27-4f71-ad51-13f28a463b2b",
+				"method": "GET"
+			},
+			{
+				"id": "3c9ccde6-fd7e-49e4-9277-413898538606",
+				"method": "PUT"
+			},
+			{
+				"id": "2b404684-ccaf-42b3-94e1-8e215960e2b8",
+				"method": "PUT"
+			},
+			{
+				"id": "423cde1d-4eb4-43f9-99db-17f52efc866b",
+				"method": "POST"
+			},
+			{
+				"id": "e0b9610f-ad27-431b-9d64-0333f9b8f3cb",
+				"method": "POST"
+			},
+			{
+				"id": "73c17565-cedc-4c42-bd5b-425d0a9e03e1",
+				"method": "POST"
+			},
+			{
+				"id": "abe5cc75-3729-4226-a464-54c7b4437c9b",
+				"method": "POST"
+			},
+			{
+				"id": "d3b8c2c1-bc27-4801-ac25-58c3a51fc44e",
+				"method": "POST"
+			},
+			{
+				"id": "45e65c65-267e-484e-b85f-737704b2e9a2",
+				"method": "POST"
+			},
+			{
+				"id": "1158afdf-c463-43bc-b644-d6b50d4029ac",
+				"method": "GET"
+			},
+			{
+				"id": "3ba6f206-38cf-4ab3-9f9c-04950e2a330d",
+				"method": "GET"
+			},
+			{
+				"id": "7e3b011e-9b15-40ab-9367-3e014d5f044e",
+				"method": "POST"
+			},
+			{
+				"id": "209c5dbe-df75-40d4-a1ad-543805e25940",
+				"method": "DELETE"
+			},
+			{
+				"id": "80eb0970-61b9-48b9-9d3b-47ab798d5213",
+				"method": "PUT"
+			},
+			{
+				"id": "b0cf7e90-cb13-42b9-acab-a6f3d22dc213",
+				"method": "GET"
+			},
+			{
+				"id": "aed71a69-cbb9-4a39-9f91-cf62678c6703",
+				"method": "POST"
+			},
+			{
+				"id": "af143b9b-4d71-4641-b1bf-40f56863ddbc",
+				"method": "POST"
+			},
+			{
+				"id": "4cd8c3f5-8068-4d8d-be78-90f087f8dbd9",
+				"method": "POST"
+			},
+			{
+				"id": "91b7cf8e-06bc-42a2-b149-ad8c30f38fef",
+				"method": "DELETE"
+			},
+			{
+				"id": "d113ec09-1f84-4c75-a89a-21439bfca082",
+				"method": "DELETE"
+			},
+			{
+				"id": "115a7ebb-6fdf-4635-b8bc-6e54683ffa6c",
+				"method": "PUT"
+			},
+			{
+				"id": "7af6ef27-84ff-4d86-b505-3f08ef7ace64",
+				"method": "PUT"
+			},
+			{
+				"id": "9b67f5c6-7f63-48ce-bbdb-aeed4a7e080a",
+				"method": "GET"
+			},
+			{
+				"id": "8caacb8b-a11e-4a48-acfc-eb11ecb9907f",
+				"method": "POST"
+			},
+			{
+				"id": "d5952423-64e6-4fc0-9677-d49d76490c56",
+				"method": "GET"
+			},
+			{
+				"id": "36d0df5c-7d3d-4a1d-9a33-287dbca154ac",
+				"method": "DELETE"
+			},
+			{
+				"id": "6fe6ac8a-a18f-4381-bde0-119bb68a6f40",
+				"method": "DELETE"
+			},
+			{
+				"id": "ac2d16da-4e91-4a86-96b3-50ff2baa557a",
+				"method": "POST"
+			},
+			{
+				"id": "4e596647-80a3-49fb-8748-6360fc872ae4",
+				"method": "POST"
+			},
+			{
+				"id": "d0d9952e-8d9b-404f-b1c5-98abec1fe34d",
+				"method": "POST"
+			},
+			{
+				"id": "91142108-b120-4e9e-bc89-38969427463a",
+				"method": "GET"
+			}
+		]
+	}
+}
